@@ -85,7 +85,7 @@ Decide now:
   npm test                    # 328 tests should pass
   npm run build               # makes dist/
   ```
-- [x] Public repository: https://github.com/madhuvan-jain/solar-erp. The initial commit is on `main`; publish later changes with `git add`, `git commit` and `git push`.
+- [x] Public repository: https://github.com/madhuvan-jain/solar-erp. This folder's local `main` branch is connected to it; publish commits with `git add`, `git commit` and `git push`.
   ```sh
   git add . && git commit -m "Describe your changes" && git push
   ```
