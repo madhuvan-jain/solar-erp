@@ -57,7 +57,7 @@ activation, Google Play's review (and, with a personal Play account, its 14-day 
 |---|---|---|
 | A computer with Linux, macOS or Windows (WSL), 8 GB RAM, 10 GB free | — | Node 20, git |
 | Domain name, e.g. `app.yourcompany.in` | ₹700–1,000 a year | GoDaddy, Hostinger, Namecheap… |
-| GitHub account (private repository) | free | |
+| GitHub account (public repository) | free | |
 | Supabase (cloud database + payment server) | Free to start; **Pro ₹2,100/month (US$25)** needed for a real business | The free plan pauses after a week without use and has no daily backups |
 | Netlify (website hosting) | free | |
 | Email sending (SMTP) for sign-up and password emails | free tier: Brevo, Resend or Zoho ZeptoMail | Required: Supabase's built-in email only reaches your own team's addresses |
@@ -85,13 +85,12 @@ Decide now:
   npm test                    # 328 tests should pass
   npm run build               # makes dist/
   ```
-- [ ] Create a **private** repository on GitHub, then:
+- [x] Public repository: https://github.com/madhuvan-jain/solar-erp. The initial commit is on `main`; publish later changes with `git add`, `git commit` and `git push`.
   ```sh
-  git init && git add . && git commit -m "SuryaSetu 1.2.0"
-  git branch -M main && git remote add origin git@github.com:<you>/suryasetu.git && git push -u origin main
+  git add . && git commit -m "Describe your changes" && git push
   ```
   Check that `android/keystore.properties`, `*.jks`, `.env` and `user video/**/*.webm` are not in the commit (`git status`). `.gitignore` already excludes them.
-- [ ] Keep the repository **private**: it is your product (section 13, "code theft").
+- [ ] This repository is public, so anyone can view and clone the source. Never commit credentials, private customer data or deployment secrets; keep them in the appropriate provider's secret settings. Change repository visibility back to private if you no longer want the source publicly accessible.
 
 ## 3. Fill in your business details (10 minutes)
 
