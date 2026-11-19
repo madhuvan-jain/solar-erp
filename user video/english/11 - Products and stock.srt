@@ -1,0 +1,96 @@
+1
+00:00:00,600 --> 00:00:03,128
+Part eleven. Products and stock.
+
+2
+00:00:04,250 --> 00:00:06,881
+Open Inventory, then Products.
+
+3
+00:00:06,881 --> 00:00:13,634
+This is everything you sell or buy: panels, inverters, batteries, structures,
+
+4
+00:00:13,634 --> 00:00:17,054
+cables, and services like installation.
+
+5
+00:00:17,054 --> 00:00:21,088
+The list shows the price and what is in stock.
+
+6
+00:00:21,970 --> 00:00:23,520
+Tap New Product.
+
+7
+00:00:23,520 --> 00:00:27,103
+Give it a name and a unique SKU code.
+
+8
+00:00:27,103 --> 00:00:31,461
+Choose the category first: for a solar panel,
+
+9
+00:00:31,461 --> 00:00:36,497
+GST becomes five percent and the HSN 8541 by itself.
+
+10
+00:00:36,497 --> 00:00:42,696
+Batteries, structures, cables and services get eighteen percent.
+
+11
+00:00:43,610 --> 00:00:49,755
+Add the brand and specification, the sale price and the purchase cost before GST,
+
+12
+00:00:49,755 --> 00:00:53,549
+and the level at which you want a low-stock alert.
+
+13
+00:00:53,549 --> 00:00:53,928
+Save.
+
+14
+00:00:55,410 --> 00:01:00,187
+The stock card shows stock in each warehouse, what is on order,
+
+15
+00:01:00,187 --> 00:01:02,992
+the average cost and the stock value.
+
+16
+00:01:02,992 --> 00:01:07,618
+To enter opening stock or a stock count, tap Count or adjust,
+
+17
+00:01:07,618 --> 00:01:12,091
+choose where you counted, type the quantity and the reason.
+
+18
+00:01:13,010 --> 00:01:18,866
+To send stock to another store, tap Move between warehouses, choose from and to,
+
+19
+00:01:18,866 --> 00:01:20,110
+and the quantity.
+
+20
+00:01:20,110 --> 00:01:22,819
+It can never move more than is there.
+
+21
+00:01:23,730 --> 00:01:28,994
+Every change is a stock entry with its reason: purchase receipts,
+
+22
+00:01:28,994 --> 00:01:33,043
+deliveries to site, returns, transfers and counts.
+
+23
+00:01:33,043 --> 00:01:37,577
+When stock falls to the alert level, it shows in alerts.
+
+24
+00:01:38,740 --> 00:01:42,779
+Next video: Delivery challans: material to site.
+

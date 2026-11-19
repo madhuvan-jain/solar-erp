@@ -1,0 +1,60 @@
+1
+00:00:00,600 --> 00:00:03,220
+Part ten. Projects and tasks.
+
+2
+00:00:04,250 --> 00:00:07,564
+Every confirmed order becomes a project.
+
+3
+00:00:07,564 --> 00:00:13,365
+The Board shows them by stage: planning, design, material procurement,
+
+4
+00:00:13,365 --> 00:00:17,425
+installation, testing, net metering and handover.
+
+5
+00:00:18,330 --> 00:00:24,682
+Open a project to see the customer, capacity, manager, target date, budget,
+
+6
+00:00:24,682 --> 00:00:31,373
+progress and milestones, with buttons to schedule the installation, add a task,
+
+7
+00:00:31,373 --> 00:00:34,168
+send material or make an invoice.
+
+8
+00:00:35,050 --> 00:00:39,483
+Edit the project as work moves: tick the milestones done,
+
+9
+00:00:39,483 --> 00:00:43,760
+update the stage and the progress percentage, and save.
+
+10
+00:00:44,650 --> 00:00:49,489
+Tap Add task for anything someone must do: order the structure,
+
+11
+00:00:49,489 --> 00:00:52,868
+get the design approved, book the net meter.
+
+12
+00:00:52,868 --> 00:00:56,248
+Give it a priority, a person and a due date.
+
+13
+00:00:57,130 --> 00:01:01,902
+The task board shows everyone's work as To do, In progress and Done.
+
+14
+00:01:01,902 --> 00:01:04,569
+Move a card when the work is finished.
+
+15
+00:01:05,700 --> 00:01:08,159
+Next video: Products and stock.
+

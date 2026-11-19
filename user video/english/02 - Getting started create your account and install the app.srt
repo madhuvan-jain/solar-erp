@@ -1,0 +1,88 @@
+1
+00:00:00,600 --> 00:00:02,705
+Part two. Getting started.
+
+2
+00:00:04,250 --> 00:00:08,220
+Open the SuryaSetu website in Chrome, Edge or Safari.
+
+3
+00:00:08,220 --> 00:00:11,890
+The first time, it asks you to create an account.
+
+4
+00:00:11,890 --> 00:00:16,384
+The person who creates it becomes the admin of the business.
+
+5
+00:00:17,290 --> 00:00:20,710
+Type your name, email and 10-digit mobile number,
+
+6
+00:00:20,710 --> 00:00:25,596
+then choose a password of at least eight characters and type it again.
+
+7
+00:00:27,890 --> 00:00:29,331
+Tap Create account.
+
+8
+00:00:29,331 --> 00:00:31,150
+You get a recovery code.
+
+9
+00:00:31,150 --> 00:00:37,216
+Write it down or take a photo and keep it safe: it lets the admin back in if the
+
+10
+00:00:37,216 --> 00:00:39,263
+password is ever forgotten.
+
+11
+00:00:40,170 --> 00:00:43,211
+Tick that you have saved the code and continue.
+
+12
+00:00:43,211 --> 00:00:46,576
+You are in, on the Home screen of your own business.
+
+13
+00:00:47,490 --> 00:00:53,212
+To sign out, open the account menu at the top right and choose Sign out.
+
+14
+00:00:53,212 --> 00:00:57,344
+Next time, pick your account and type your password.
+
+15
+00:00:57,344 --> 00:00:58,138
+Forgot it?
+
+16
+00:00:58,138 --> 00:01:01,476
+Use Forgot password on the sign-in screen.
+
+17
+00:01:02,370 --> 00:01:07,709
+To install it like an app: on Android, open the website in Chrome,
+
+18
+00:01:07,709 --> 00:01:11,430
+tap the three-dot menu and choose Install app.
+
+19
+00:01:11,430 --> 00:01:15,151
+On iPhone, use Share, then Add to Home Screen.
+
+20
+00:01:15,151 --> 00:01:19,762
+On a computer, click the install icon in the address bar.
+
+21
+00:01:19,762 --> 00:01:23,968
+Your company can also give you the Android app file.
+
+22
+00:01:25,100 --> 00:01:31,017
+Next video: Company setup: profile, GST, print, WhatsApp.
+

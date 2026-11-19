@@ -1,0 +1,88 @@
+1
+00:00:00,600 --> 00:00:04,190
+Part nine. GST invoices and payments.
+
+2
+00:00:05,050 --> 00:00:08,250
+On the quotation, tap Convert to invoice.
+
+3
+00:00:08,250 --> 00:00:13,478
+The invoice is made with the same lines and the order is confirmed.
+
+4
+00:00:13,478 --> 00:00:16,522
+It starts as a Draft, without a number.
+
+5
+00:00:17,410 --> 00:00:19,778
+A draft can still be changed.
+
+6
+00:00:19,778 --> 00:00:24,023
+When you send it to the customer, tap Issue invoice.
+
+7
+00:00:24,023 --> 00:00:30,228
+It gets the next number in the series, so cancelled drafts never leave gaps.
+
+8
+00:00:30,228 --> 00:00:35,290
+After that, its lines and price are locked, as GST rules need.
+
+9
+00:00:36,210 --> 00:00:37,131
+Print it.
+
+10
+00:00:37,131 --> 00:00:41,938
+The tax invoice has your GSTIN, the customer's,
+
+11
+00:00:41,938 --> 00:00:49,508
+the place of supply with its state code, HSN codes, CGST and SGST or IGST,
+
+12
+00:00:49,508 --> 00:00:56,361
+the HSN summary, amount in words and a UPI QR code for the balance.
+
+13
+00:00:57,250 --> 00:01:00,599
+When money comes in, tap Record payment.
+
+14
+00:01:00,599 --> 00:01:05,205
+The balance is filled in; change it for a part payment.
+
+15
+00:01:05,205 --> 00:01:10,480
+Choose how it was paid, add the UTR or cheque number, and save.
+
+16
+00:01:11,370 --> 00:01:14,124
+The receipt is ready to print or send.
+
+17
+00:01:14,124 --> 00:01:18,255
+The invoice now shows Partially Paid and the balance due.
+
+18
+00:01:18,255 --> 00:01:21,081
+When everything is paid, it shows Paid.
+
+19
+00:01:21,970 --> 00:01:28,460
+For an overdue invoice, the WhatsApp button suggests a polite payment reminder with
+
+20
+00:01:28,460 --> 00:01:31,666
+the amount, the due date and your UPI ID.
+
+21
+00:01:31,666 --> 00:01:34,715
+Overdue invoices also appear in alerts.
+
+22
+00:01:35,860 --> 00:01:38,547
+Next video: Projects and tasks.
+

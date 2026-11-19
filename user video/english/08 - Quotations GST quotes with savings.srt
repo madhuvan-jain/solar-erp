@@ -1,0 +1,96 @@
+1
+00:00:00,600 --> 00:00:02,713
+Part eight. Quotations.
+
+2
+00:00:04,250 --> 00:00:06,791
+Open the lead and tap New quotation.
+
+3
+00:00:06,791 --> 00:00:10,249
+The lead becomes a customer if it is not one yet,
+
+4
+00:00:10,249 --> 00:00:13,920
+and the quotation opens with the customer filled in.
+
+5
+00:00:14,810 --> 00:00:17,665
+Type the system size in kilowatts.
+
+6
+00:00:17,665 --> 00:00:23,038
+Then add lines: choose a product and its description, HSN, unit,
+
+7
+00:00:23,038 --> 00:00:26,984
+price and GST rate come from your product list.
+
+8
+00:00:26,984 --> 00:00:30,678
+Panels and inverters carry five percent GST.
+
+9
+00:00:31,570 --> 00:00:38,260
+Add the structure, and installation, which is a service at eighteen percent.
+
+10
+00:00:38,260 --> 00:00:45,478
+The totals below show the taxable value, CGST and SGST, or IGST for another state,
+
+11
+00:00:45,478 --> 00:00:47,062
+and the round-off.
+
+12
+00:00:47,970 --> 00:00:55,842
+Give a discount in rupees if you agreed one; GST is worked out after the discount.
+
+13
+00:00:55,842 --> 00:00:56,322
+Save.
+
+14
+00:00:56,322 --> 00:01:01,218
+The quotation gets its number, like QT slash 26-27.
+
+15
+00:01:02,130 --> 00:01:04,356
+Print or save it as PDF.
+
+16
+00:01:04,356 --> 00:01:11,125
+It shows your logo and GSTIN, the lines with HSN, taxes, amount in words,
+
+17
+00:01:11,125 --> 00:01:15,947
+your bank details, and the estimated units per year,
+
+18
+00:01:15,947 --> 00:01:19,378
+savings and payback for the customer.
+
+19
+00:01:20,290 --> 00:01:25,054
+Share on WhatsApp opens the quotation message for the customer.
+
+20
+00:01:25,054 --> 00:01:29,137
+Save the PDF, open WhatsApp and attach it in the chat.
+
+21
+00:01:30,050 --> 00:01:33,381
+When the customer agrees, tap Confirm order.
+
+22
+00:01:33,381 --> 00:01:36,787
+The quotation becomes Accepted, the lead Won,
+
+23
+00:01:36,787 --> 00:01:40,270
+and a project is started for the installation.
+
+24
+00:01:41,420 --> 00:01:45,807
+Next video: GST invoices, payments and receipts.
+

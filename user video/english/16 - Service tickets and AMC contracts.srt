@@ -1,0 +1,52 @@
+1
+00:00:00,600 --> 00:00:03,520
+Part sixteen. Service and AMC.
+
+2
+00:00:04,370 --> 00:00:10,360
+When a customer calls with a problem, open Service and add a ticket: the issue,
+
+3
+00:00:10,360 --> 00:00:15,441
+the customer, the type such as breakdown or cleaning, the priority,
+
+4
+00:00:15,441 --> 00:00:18,626
+the technician and the date to resolve by.
+
+5
+00:00:19,530 --> 00:00:24,949
+WhatsApp tells the customer their request is registered, with the ticket number.
+
+6
+00:00:24,949 --> 00:00:27,794
+Urgent and overdue tickets show in alerts.
+
+7
+00:00:28,690 --> 00:00:34,257
+When it is fixed, edit the ticket, write what was done and set it to Resolved,
+
+8
+00:00:34,257 --> 00:00:35,113
+then Closed.
+
+9
+00:00:38,290 --> 00:00:44,377
+Annual maintenance contracts are under AMC: the customer, start and end dates,
+
+10
+00:00:44,377 --> 00:00:47,420
+visits per year and the contract value.
+
+11
+00:00:47,420 --> 00:00:51,790
+Thirty days before the end, a renewal alert reminds you,
+
+12
+00:00:51,790 --> 00:00:54,989
+and WhatsApp has a renewal message ready.
+
+13
+00:00:56,140 --> 00:01:00,152
+Next video: Expenses, documents and your team.
+

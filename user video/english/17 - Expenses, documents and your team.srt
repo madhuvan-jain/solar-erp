@@ -1,0 +1,52 @@
+1
+00:00:00,600 --> 00:00:04,579
+Part seventeen. Expenses, documents and team.
+
+2
+00:00:05,410 --> 00:00:10,451
+Every rupee spent goes into Accounts, Expenses: what it was for,
+
+3
+00:00:10,451 --> 00:00:14,389
+the category like transport or labour, the amount,
+
+4
+00:00:14,389 --> 00:00:18,327
+the project it belongs to and a photo of the bill.
+
+5
+00:00:19,210 --> 00:00:25,412
+Documents keeps KYC copies, agreements, warranty cards and site photos.
+
+6
+00:00:25,412 --> 00:00:31,527
+Drop several files at once, or choose them, then give them a category,
+
+7
+00:00:31,527 --> 00:00:34,672
+the customer and a valid-until date.
+
+8
+00:00:35,570 --> 00:00:40,965
+Category chips filter them, and tapping a card previews photos and PDFs.
+
+9
+00:00:40,965 --> 00:00:46,061
+You get an alert thirty days before a warranty or agreement expires.
+
+10
+00:00:46,970 --> 00:00:51,330
+Under Team, add your employees with their department,
+
+11
+00:00:51,330 --> 00:00:57,171
+and mark attendance each day: present, absent, half day, leave or late,
+
+12
+00:00:57,171 --> 00:00:59,968
+with check-in and check-out times.
+
+13
+00:01:01,100 --> 00:01:06,929
+Next video: Lists like a pro: search, filters, views, export.
+

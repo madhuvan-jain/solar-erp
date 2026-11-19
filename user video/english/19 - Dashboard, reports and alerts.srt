@@ -1,0 +1,64 @@
+1
+00:00:00,600 --> 00:00:04,350
+Part nineteen. Dashboard, reports and alerts.
+
+2
+00:00:05,210 --> 00:00:10,265
+On the Dashboard, choose the period: this month, last three months,
+
+3
+00:00:10,265 --> 00:00:12,679
+this financial year or all time.
+
+4
+00:00:12,679 --> 00:00:17,130
+The arrows compare with the same days of the period before.
+
+5
+00:00:17,130 --> 00:00:20,374
+Tap a figure to open the records behind it.
+
+6
+00:00:21,290 --> 00:00:26,550
+Create my dashboard builds your own page with the charts and figures you care
+
+7
+00:00:26,550 --> 00:00:29,009
+about, and Add item puts more on it.
+
+8
+00:00:29,890 --> 00:00:32,921
+Reports takes a from and to date.
+
+9
+00:00:32,921 --> 00:00:39,259
+You get invoiced, collected, expenses and paid to suppliers by month,
+
+10
+00:00:39,259 --> 00:00:46,882
+the GST summary per invoice, GST on purchases, the HSN summary, receivables by age,
+
+11
+00:00:46,882 --> 00:00:51,383
+product-wise sales, stock value and lead sources.
+
+12
+00:00:51,383 --> 00:00:54,047
+Export any table for your CA.
+
+13
+00:00:54,930 --> 00:00:59,779
+Alerts lists everything that needs action, most urgent first.
+
+14
+00:00:59,779 --> 00:01:01,528
+Each opens its record.
+
+15
+00:01:01,528 --> 00:01:06,615
+In Settings, Alerts, each person chooses which alerts they want.
+
+16
+00:01:07,780 --> 00:01:11,910
+Next video: Backup, restore and keeping data safe.
+

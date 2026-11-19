@@ -1,0 +1,56 @@
+1
+00:00:00,600 --> 00:00:03,085
+Part twelve. Delivery challans.
+
+2
+00:00:04,250 --> 00:00:06,850
+Open the project and tap Send material.
+
+3
+00:00:06,850 --> 00:00:11,184
+A delivery challan opens with the project and customer filled in.
+
+4
+00:00:12,090 --> 00:00:17,318
+Choose the warehouse it leaves from, the vehicle number and the transporter.
+
+5
+00:00:17,318 --> 00:00:22,340
+Add the material: each line shows how much is in stock in that warehouse.
+
+6
+00:00:25,610 --> 00:00:30,145
+Set the status to Dispatched when the vehicle leaves and save.
+
+7
+00:00:30,145 --> 00:00:34,315
+The material goes out of stock once, from that warehouse.
+
+8
+00:00:34,315 --> 00:00:38,265
+If anything is short, the app tells you before saving.
+
+9
+00:00:39,170 --> 00:00:43,602
+Print the delivery challan to send with the vehicle.
+
+10
+00:00:43,602 --> 00:00:49,398
+It has the consignee, vehicle, HSN, values and tax, in three copies.
+
+11
+00:00:50,290 --> 00:00:53,244
+Material left over after installation?
+
+12
+00:00:53,244 --> 00:00:56,742
+Under Material at site, tap Return from site,
+
+13
+00:00:56,742 --> 00:01:00,396
+type what came back and put it back into stock.
+
+14
+00:01:01,540 --> 00:01:06,352
+Next video: Purchase: vendors, orders and supplier payments.
+

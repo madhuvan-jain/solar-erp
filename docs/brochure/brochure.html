@@ -1,0 +1,932 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SuryaSetu — Product brochure</title>
+<link rel="stylesheet" href="brochure.css">
+</head>
+<body>
+
+<!-- Inline icon set (stroke icons, 24×24) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+    <symbol id="users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></symbol>
+    <symbol id="userplus" viewBox="0 0 24 24"><path d="M2 21v-2a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M16 11h6"/></symbol>
+    <symbol id="usercheck" viewBox="0 0 24 24"><path d="M2 21v-2a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M16 11l2 2 4-4"/></symbol>
+    <symbol id="phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></symbol>
+    <symbol id="chat" viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.5L3 21l2-5.5A8.4 8.4 0 1 1 21 11.5z"/><path d="M9 10h.01M12.5 10h.01M16 10h.01"/></symbol>
+    <symbol id="pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="map" viewBox="0 0 24 24"><path d="M1 6v16l7-4 8 4 7-4V2l-7 4-8-4-7 4zM8 2v16M16 6v16"/></symbol>
+    <symbol id="file" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></symbol>
+    <symbol id="calc" viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 11h.01M12 11h.01M16 11h.01M8 15h.01M12 15h.01M16 15h.01M8 18.5h.01M12 18.5h.01M16 18.5h.01"/></symbol>
+    <symbol id="rupee" viewBox="0 0 24 24"><path d="M6 3h12M6 8h12M6 13l8.5 8M6 13h3M9 13c6.7 0 6.7-10 0-10"/></symbol>
+    <symbol id="receipt" viewBox="0 0 24 24"><path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1z"/><path d="M16 8H8M16 12H8M13 16H8"/></symbol>
+    <symbol id="qr" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3zM20 14v.01M14 20.5h.01M17.5 17.5H21V21h-3.5z"/></symbol>
+    <symbol id="truck" viewBox="0 0 24 24"><path d="M1 3h15v13H1zM16 8h4l3 3v5h-7z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></symbol>
+    <symbol id="box" viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.7l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.7l7 4a2 2 0 0 0 2 0l7-4a2 2 0 0 0 1-1.7z"/><path d="M3.3 7L12 12l8.7-5M12 22V12"/></symbol>
+    <symbol id="cart" viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></symbol>
+    <symbol id="clip" viewBox="0 0 24 24"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M9 14l2 2 4-4"/></symbol>
+    <symbol id="wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9z"/></symbol>
+    <symbol id="cal" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01"/></symbol>
+    <symbol id="board" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 7v7M12 7v4M16 7v9"/></symbol>
+    <symbol id="list" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></symbol>
+    <symbol id="grid" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18"/></symbol>
+    <symbol id="chart" viewBox="0 0 24 24"><path d="M3 3v18h18M18 17V9M13 17V5M8 17v-3"/></symbol>
+    <symbol id="pie" viewBox="0 0 24 24"><path d="M21.2 15.9A10 10 0 1 1 8 2.8"/><path d="M22 12A10 10 0 0 0 12 2v10z"/></symbol>
+    <symbol id="bell" viewBox="0 0 24 24"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 0 1-3.4 0"/></symbol>
+    <symbol id="shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></symbol>
+    <symbol id="lock" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
+    <symbol id="key" viewBox="0 0 24 24"><circle cx="7.5" cy="15.5" r="5.5"/><path d="M21 2l-9.6 9.6M15.5 7.5l3 3L22 7l-3-3"/></symbol>
+    <symbol id="cloud" viewBox="0 0 24 24"><path d="M18 10h-1.3A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></symbol>
+    <symbol id="wifioff" viewBox="0 0 24 24"><path d="M1 1l22 22M16.7 11.1A11 11 0 0 1 19 12.5M5 12.5a11 11 0 0 1 5.2-2.5M10.7 5A16 16 0 0 1 22.6 9M1.4 9a16 16 0 0 1 4.4-2.7M8.5 16.1a6 6 0 0 1 7 0M12 20h.01"/></symbol>
+    <symbol id="mobile" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></symbol>
+    <symbol id="download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></symbol>
+    <symbol id="upload" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></symbol>
+    <symbol id="print" viewBox="0 0 24 24"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></symbol>
+    <symbol id="search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.3-4.3"/></symbol>
+    <symbol id="layers" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></symbol>
+    <symbol id="ok" viewBox="0 0 24 24"><path d="M22 11.1V12a10 10 0 1 1-5.9-9.1"/><path d="M22 4L12 14l-3-3"/></symbol>
+    <symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="bank" viewBox="0 0 24 24"><path d="M3 22h18M6 18v-7M10 18v-7M14 18v-7M18 18v-7M12 2l9 5H3z"/></symbol>
+    <symbol id="percent" viewBox="0 0 24 24"><path d="M19 5L5 19"/><circle cx="6.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></symbol>
+    <symbol id="folder" viewBox="0 0 24 24"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></symbol>
+    <symbol id="idcard" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><circle cx="8" cy="12" r="2.5"/><path d="M14 10h5M14 14h4"/></symbol>
+    <symbol id="tag" viewBox="0 0 24 24"><path d="M20.6 13.4l-7.2 7.2a2 2 0 0 1-2.8 0L2 12V2h10l8.6 8.6a2 2 0 0 1 0 2.8z"/><path d="M7 7h.01"/></symbol>
+    <symbol id="refresh" viewBox="0 0 24 24"><path d="M23 4v6h-6M1 20v-6h6"/><path d="M3.5 9a9 9 0 0 1 14.9-3.4L23 10M1 14l4.6 4.4A9 9 0 0 0 20.5 15"/></symbol>
+    <symbol id="star" viewBox="0 0 24 24"><path d="M12 2l3.1 6.3 6.9 1-5 4.8 1.2 6.9-6.2-3.2-6.2 3.2L7 14.1 2 9.3l6.9-1z"/></symbol>
+    <symbol id="zap" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9z"/></symbol>
+    <symbol id="home" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></symbol>
+    <symbol id="gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></symbol>
+    <symbol id="target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+    <symbol id="trend" viewBox="0 0 24 24"><path d="M23 6l-9.5 9.5-5-5L1 18M17 6h6v6"/></symbol>
+    <symbol id="panel" viewBox="0 0 24 24"><path d="M4 4h16l2 12H2zM8.5 4l-1 12M15.5 4l1 12M3 10h18M12 16v4M8 20h8"/></symbol>
+    <symbol id="dash" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></symbol>
+    <symbol id="moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/></symbol>
+    <symbol id="gps" viewBox="0 0 24 24"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2"/><path d="M12 1v4M12 19v4M1 12h4M19 12h4"/></symbol>
+    <symbol id="camera" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></symbol>
+    <symbol id="hash" viewBox="0 0 24 24"><path d="M4 9h16M4 15h16M10 3L8 21M16 3l-2 18"/></symbol>
+    <symbol id="store" viewBox="0 0 24 24"><path d="M22 8.4V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8.4L12 3z"/><path d="M6 18h12M6 14h12"/></symbol>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+    <symbol id="battery" viewBox="0 0 24 24"><rect x="2" y="7" width="16" height="10" rx="2"/><path d="M22 11v2M6 10v4M10 10v4"/></symbol>
+    <symbol id="pen" viewBox="0 0 24 24"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></symbol>
+    <symbol id="copy" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></symbol>
+    <symbol id="globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></symbol>
+    <symbol id="mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></symbol>
+    <symbol id="building" viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="1"/><path d="M9 22v-4h6v4M8 6h.01M12 6h.01M16 6h.01M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M16 14h.01"/></symbol>
+    <symbol id="link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></symbol>
+    <symbol id="filter" viewBox="0 0 24 24"><path d="M22 3H2l8 9.5V19l4 2v-8.5z"/></symbol>
+    <symbol id="logo" viewBox="0 0 240 240">
+      <rect x="6" y="6" width="228" height="228" rx="44" fill="#fff" stroke="#0f6b5c" stroke-width="10"/>
+      <g transform="translate(120 104)" fill="#f2a900" stroke="none">
+        <rect x="-5" y="-78" width="10" height="24" rx="5"/><rect x="-5" y="-78" width="10" height="24" rx="5" transform="rotate(30)"/><rect x="-5" y="-78" width="10" height="24" rx="5" transform="rotate(60)"/>
+        <rect x="-5" y="-78" width="10" height="24" rx="5" transform="rotate(90)"/><rect x="-5" y="-78" width="10" height="24" rx="5" transform="rotate(120)"/><rect x="-5" y="-78" width="10" height="24" rx="5" transform="rotate(150)"/>
+        <rect x="-5" y="-78" width="10" height="24" rx="5" transform="rotate(180)"/><rect x="-5" y="-78" width="10" height="24" rx="5" transform="rotate(210)"/><rect x="-5" y="-78" width="10" height="24" rx="5" transform="rotate(240)"/>
+        <rect x="-5" y="-78" width="10" height="24" rx="5" transform="rotate(270)"/><rect x="-5" y="-78" width="10" height="24" rx="5" transform="rotate(300)"/><rect x="-5" y="-78" width="10" height="24" rx="5" transform="rotate(330)"/>
+        <circle r="42" fill="#eb6834"/><circle r="30" fill="#f2a900"/>
+      </g>
+      <path d="M34 196 L206 196 L184 158 L56 158 Z" fill="#0f6b5c" stroke="none"/>
+      <path d="M77 158 L70 196 M120 158 L120 196 M163 158 L170 196 M45 177 L195 177" stroke="#fff" stroke-width="5" fill="none"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- =============================== 1 · COVER =============================== -->
+<section class="page cover">
+  <div class="sunglow" style="width:190mm;height:190mm;right:-70mm;top:-80mm"></div>
+  <div class="panels" style="right:-30mm;bottom:52mm;width:120mm;height:62mm;transform:perspective(60mm) rotateX(28deg) rotate(-8deg);opacity:.9"></div>
+  <div class="ph">
+    <div class="mark"><svg><use href="#logo"/></svg><div><span data-brand>SuryaSetu</span><small>Solar business software</small></div></div>
+    <span class="pill">Product brochure</span>
+  </div>
+  <div class="titlebox" style="padding-top:12mm">
+    <div class="eyebrow">For solar EPC companies &amp; rooftop installers in India</div>
+    <h1 class="hero-name"><span data-brand style="color:var(--teal)">SuryaSetu</span></h1>
+    <p class="tag">Your <b>solar business, end to end</b> — from the first enquiry to the AMC visit, in one app.</p>
+    <div class="chips mt4">
+      <span class="chip"><svg class="i"><use href="#users"/></svg>CRM &amp; leads</span>
+      <span class="chip y"><svg class="i"><use href="#calc"/></svg>Quotes with savings</span>
+      <span class="chip o"><svg class="i"><use href="#receipt"/></svg>GST invoices + UPI QR</span>
+      <span class="chip"><svg class="i"><use href="#panel"/></svg>Projects &amp; installation</span>
+      <span class="chip y"><svg class="i"><use href="#box"/></svg>Inventory</span>
+      <span class="chip o"><svg class="i"><use href="#bank"/></svg>PM Surya Ghar subsidy</span>
+      <span class="chip"><svg class="i"><use href="#wrench"/></svg>Service &amp; AMC</span>
+    </div>
+  </div>
+  <div style="position:relative;height:138mm;margin-top:6mm">
+    <div class="laptop" style="position:absolute;left:12mm;top:4mm;width:166mm">
+      <div class="lid"><div class="screen"><img src="img/dashboard.png" alt="Dashboard"></div></div><div class="base"></div>
+    </div>
+    <div class="phone" style="position:absolute;right:10mm;top:18mm;width:50mm">
+      <div class="screen"><img src="img/phone-home.png" alt="Phone home screen"></div>
+    </div>
+  </div>
+  <div class="pad" style="position:relative;z-index:2">
+    <div class="cover-stats">
+      <div class="stat"><strong>16</strong><span>apps on one home screen</span></div>
+      <div class="stat"><strong>13</strong><span>printable PDF documents</span></div>
+      <div class="stat"><strong>6</strong><span>views: list, board, calendar, pivot, graph, map</span></div>
+      <div class="stat"><strong>5</strong><span>user roles with their own access</span></div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="b"><svg class="i"><use href="#mobile"/></svg><div><strong>Phone &amp; desktop</strong>Install on Android, iPhone, Windows</div></div>
+    <div class="b"><svg class="i"><use href="#hash"/></svg><div><strong>GST ready</strong>CGST/SGST or IGST, HSN summary</div></div>
+    <div class="b"><svg class="i"><use href="#cloud"/></svg><div><strong>Device or cloud</strong>Start alone, grow to a team</div></div>
+    <div class="b"><svg class="i"><use href="#cal"/></svg><div><strong>Book a free demo</strong>[Phone] · [Website]</div></div>
+  </div>
+</section>
+
+<!-- =============================== 2 · WHY =============================== -->
+<section class="page">
+  <div class="sunglow"></div>
+  <div class="ph"><div class="mark"><svg><use href="#logo"/></svg><span data-brand>SuryaSetu</span></div><div class="sec"><b>01</b>Overview</div></div>
+  <div class="titlebox">
+    <div class="eyebrow">What it is</div>
+    <h1 class="t"><span class="l1">One app for your</span><span class="l2">Solar <em>business</em></span></h1>
+    <div class="swoosh"></div>
+    <p class="lead" style="max-width:170mm"><strong data-brand>SuryaSetu</strong> is business software built for Indian solar installers and EPC companies. Sales, site surveys, quotations, projects, installation, stock, purchase, GST billing, subsidy, loans, service and your team — all connected, so a lead becomes a project, an invoice, a payment and an AMC without re-typing anything.</p>
+  </div>
+  <div class="body">
+    <div class="label">Why choose it</div>
+    <ol class="feats c2">
+      <li><svg class="ic"><use href="#layers"/></svg><h4><span class="n">01</span>Everything in one place</h4><p>12 business apps plus dashboard, reports, alerts and settings. No more spreadsheets, WhatsApp notes and separate billing software.</p></li>
+      <li><svg class="ic"><use href="#sun"/></svg><h4><span class="n">02</span>Made for Indian solar</h4><p>PM Surya Ghar subsidy tracking, net-metering milestones, kW-based projects, solar loans with EMI, amounts in lakh / crore words.</p></li>
+      <li><svg class="ic"><use href="#hash"/></svg><h4><span class="n">03</span>GST done right</h4><p>CGST + SGST or IGST from the place of supply, HSN/SAC summary, round-off and a fresh invoice series every financial year (<b>INV/26-27/0001</b>).</p></li>
+      <li><svg class="ic"><use href="#qr"/></svg><h4><span class="n">04</span>Get paid faster</h4><p>Every unpaid invoice prints a UPI QR code for the exact balance. Share documents on WhatsApp; see receivables ageing at a glance.</p></li>
+      <li><svg class="ic"><use href="#box"/></svg><h4><span class="n">05</span>Stock you can trust</h4><p>Received purchase orders add stock, dispatched challans take it out — once. Stock can never go negative and low stock raises an alert.</p></li>
+      <li><svg class="ic"><use href="#map"/></svg><h4><span class="n">06</span>See India at a glance</h4><p>A live India map shades states by sales or customers and plots every customer as a dot. Every list can be shown on the map too.</p></li>
+      <li><svg class="ic"><use href="#mobile"/></svg><h4><span class="n">07</span>Works where your team works</h4><p>Same app on phone, tablet and desktop. Install it from the browser — no app store needed. Starts even without internet.</p></li>
+      <li><svg class="ic"><use href="#shield"/></svg><h4><span class="n">08</span>Safe for teams</h4><p>Five roles, only admin and manager can delete, issued invoices are cancelled — never deleted, and two people editing the same record get a warning.</p></li>
+    </ol>
+    <div class="label mt6">Who it is for</div>
+    <div class="row" style="gap:3mm">
+      <div class="card tint grow"><h3><svg class="i"><use href="#home"/></svg>Rooftop installers</h3><p>Residential 2–10 kW systems with subsidy and bank loans.</p></div>
+      <div class="card tint grow"><h3><svg class="i"><use href="#building"/></svg>C&amp;I EPC companies</h3><p>Commercial and industrial plants, multi-stage projects, POs.</p></div>
+      <div class="card tint grow"><h3><svg class="i"><use href="#truck"/></svg>Dealers &amp; distributors</h3><p>Panels, inverters and BOS supply with GST invoices and stock.</p></div>
+      <div class="card tint grow"><h3><svg class="i"><use href="#wrench"/></svg>O&amp;M &amp; service teams</h3><p>Tickets, cleaning visits and AMC contracts with renewals.</p></div>
+    </div>
+    <div class="shot crop mt6" style="height:50mm"><img src="img/dashboard-charts.png" alt="Dashboard charts"><span class="cap">Real screen: dashboard charts with demo data</span></div>
+  </div>
+  <div class="band">
+    <div class="b"><svg class="i"><use href="#zap"/></svg><div><strong>Less typing</strong>Data flows from step to step</div></div>
+    <div class="b"><svg class="i"><use href="#bell"/></svg><div><strong>Nothing missed</strong>Alerts for every due date</div></div>
+    <div class="b"><svg class="i"><use href="#trend"/></svg><div><strong>Clear numbers</strong>Live KPIs and reports</div></div>
+    <div class="pg">2</div>
+  </div>
+</section>
+
+<!-- =============================== 3 · WORKFLOW =============================== -->
+<section class="page">
+  <div class="sunglow"></div>
+  <div class="ph"><div class="mark"><svg><use href="#logo"/></svg><span data-brand>SuryaSetu</span></div><div class="sec"><b>02</b>Workflow</div></div>
+  <div class="titlebox">
+    <div class="eyebrow">One system, every step</div>
+    <h1 class="t"><span class="l1">End-to-end</span><span class="l2">Solar <em>workflow</em></span></h1>
+    <div class="swoosh"></div>
+    <p class="lead">Each step starts from the one before it. The customer, the line items, the kW and the GST details travel with the job.</p>
+  </div>
+  <div class="body">
+    <div class="sub mt4">Win the customer</div>
+    <div class="lane mt3">
+      <div class="step"><div class="dot"><svg class="i"><use href="#userplus"/></svg><span class="num">1</span></div><h4>Lead</h4><p>Website enquiry, WhatsApp, walk-in, referral or CSV import. Auto-assigned to a sales person.</p></div>
+      <div class="step"><div class="dot"><svg class="i"><use href="#clip"/></svg><span class="num">2</span></div><h4>Site survey</h4><p>Roof type, usable area, shading, sanctioned load and recommended kW.</p></div>
+      <div class="step"><div class="dot"><svg class="i"><use href="#calc"/></svg><span class="num">3</span></div><h4>Quotation</h4><p>Products, GST, discount and a generation, savings &amp; payback estimate.</p></div>
+      <div class="step"><div class="dot"><svg class="i"><use href="#receipt"/></svg><span class="num">4</span></div><h4>Invoice</h4><p>One click turns the quotation into a GST tax invoice.</p></div>
+      <div class="step"><div class="dot"><svg class="i"><use href="#rupee"/></svg><span class="num">5</span></div><h4>Payment</h4><p>Advance and part payments, receipts, UPI QR, balance worked out for you.</p></div>
+    </div>
+    <div class="sub" style="margin-top:12mm">Deliver the plant</div>
+    <div class="lane o mt3">
+      <div class="step"><div class="dot"><svg class="i"><use href="#board"/></svg><span class="num">6</span></div><h4>Project</h4><p>Stages, 7 milestones, budget vs actual cost, manager and target date.</p></div>
+      <div class="step"><div class="dot"><svg class="i"><use href="#truck"/></svg><span class="num">7</span></div><h4>Material</h4><p>Purchase orders, stock in the warehouse, delivery challan to the site.</p></div>
+      <div class="step"><div class="dot"><svg class="i"><use href="#panel"/></svg><span class="num">8</span></div><h4>Installation</h4><p>Schedule, team, 7-point checklist, site GPS and customer rating.</p></div>
+      <div class="step"><div class="dot"><svg class="i"><use href="#file"/></svg><span class="num">9</span></div><h4>Certificate</h4><p>Installation &amp; commissioning certificate ready to print or share.</p></div>
+      <div class="step"><div class="dot"><svg class="i"><use href="#wrench"/></svg><span class="num">10</span></div><h4>Service &amp; AMC</h4><p>Tickets, cleaning visits, AMC contracts with renewal reminders.</p></div>
+    </div>
+    <div class="row" style="gap:4mm;margin-top:12mm">
+      <div class="card grow" style="border-left:1.4mm solid var(--sun)">
+        <h3><svg class="i"><use href="#bank"/></svg>Running alongside</h3>
+        <ul class="check">
+          <li>PM Surya Ghar subsidy application, documents and status</li>
+          <li>Solar loan with the bank — EMI, schedule and EMI-due alerts</li>
+          <li>Documents: KYC, agreements, warranties linked to the customer</li>
+          <li>Expenses per project: labour, transport, material</li>
+        </ul>
+      </div>
+      <div class="card grow" style="border-left:1.4mm solid var(--teal)">
+        <h3><svg class="i"><use href="#zap"/></svg>Happens automatically</h3>
+        <ul class="check">
+          <li>Lead marked <b>Won</b> → customer created</li>
+          <li>Quotation → invoice in one click, quote marked Accepted</li>
+          <li>PO <b>Received</b> → stock added · Challan <b>Dispatched</b> → stock out</li>
+          <li>Payment saved → invoice shows Paid / Partially Paid</li>
+          <li>Overdue follow-ups, payments, AMC renewals → alerts</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="b"><svg class="i"><use href="#link"/></svg><div><strong>Connected records</strong>Open the project from the invoice</div></div>
+    <div class="b"><svg class="i"><use href="#copy"/></svg><div><strong>No double entry</strong>Items copied quote → invoice</div></div>
+    <div class="b"><svg class="i"><use href="#clock"/></svg><div><strong>Faster handovers</strong>Everyone sees the same job</div></div>
+    <div class="pg">3</div>
+  </div>
+</section>
+
+<!-- =============================== 4 · ALL APPS =============================== -->
+<section class="page">
+  <div class="sunglow"></div>
+  <div class="ph"><div class="mark"><svg><use href="#logo"/></svg><span data-brand>SuryaSetu</span></div><div class="sec"><b>03</b>All apps</div></div>
+  <div class="titlebox">
+    <div class="eyebrow">Home screen</div>
+    <h1 class="t"><span class="l1">Every module,</span><span class="l2">One <em>home screen</em></span></h1>
+    <div class="swoosh"></div>
+    <p class="lead">Each person sees the apps their role allows. Red badges show how many items need attention, and one search box finds any customer, invoice, phone number or GSTIN.</p>
+  </div>
+  <div class="body">
+    <div class="laptop" style="width:150mm;margin:1mm auto 0">
+      <div class="lid"><div class="screen"><img src="img/home.png" alt="Home screen with all apps"></div></div><div class="base"></div>
+    </div>
+    <div class="apps mt6">
+      <div class="app"><span class="sq" style="background:#0f6b5c"><svg class="i"><use href="#dash"/></svg></span><div><b>Dashboard</b><span>KPIs, charts, India sales map</span></div></div>
+      <div class="app"><span class="sq" style="background:#2a78d6"><svg class="i"><use href="#users"/></svg></span><div><b>CRM</b><span>Leads, customers, follow-ups</span></div></div>
+      <div class="app"><span class="sq" style="background:#eb6834"><svg class="i"><use href="#calc"/></svg></span><div><b>Sales</b><span>Site surveys, quotations</span></div></div>
+      <div class="app"><span class="sq" style="background:#6250d6"><svg class="i"><use href="#board"/></svg></span><div><b>Projects</b><span>Projects, milestones, tasks</span></div></div>
+      <div class="app"><span class="sq" style="background:#1baf7a"><svg class="i"><use href="#panel"/></svg></span><div><b>Installation</b><span>Schedule, checklist, certificate</span></div></div>
+      <div class="app"><span class="sq" style="background:#b7791f"><svg class="i"><use href="#box"/></svg></span><div><b>Inventory</b><span>Products, stock, challans</span></div></div>
+      <div class="app"><span class="sq" style="background:#0e7490"><svg class="i"><use href="#cart"/></svg></span><div><b>Purchase</b><span>Vendors, purchase orders</span></div></div>
+      <div class="app"><span class="sq" style="background:#008300"><svg class="i"><use href="#rupee"/></svg></span><div><b>Accounts</b><span>GST invoices, payments, expenses</span></div></div>
+      <div class="app"><span class="sq" style="background:#c2410c"><svg class="i"><use href="#bank"/></svg></span><div><b>Subsidy</b><span>PM Surya Ghar applications</span></div></div>
+      <div class="app"><span class="sq" style="background:#4f46e5"><svg class="i"><use href="#percent"/></svg></span><div><b>Solar Loans</b><span>Bank loans and EMI</span></div></div>
+      <div class="app"><span class="sq" style="background:#e34948"><svg class="i"><use href="#wrench"/></svg></span><div><b>Service</b><span>Tickets, AMC contracts</span></div></div>
+      <div class="app"><span class="sq" style="background:#64748b"><svg class="i"><use href="#folder"/></svg></span><div><b>Documents</b><span>KYC, agreements, warranties</span></div></div>
+      <div class="app"><span class="sq" style="background:#be185d"><svg class="i"><use href="#idcard"/></svg></span><div><b>Team</b><span>Employees, attendance</span></div></div>
+      <div class="app"><span class="sq" style="background:#334155"><svg class="i"><use href="#chart"/></svg></span><div><b>Reports</b><span>Sales, GST, cash flow, leads</span></div></div>
+      <div class="app"><span class="sq" style="background:#b91c1c"><svg class="i"><use href="#bell"/></svg></span><div><b>Alerts</b><span>Overdue and due-soon items</span></div></div>
+      <div class="app"><span class="sq" style="background:#475569"><svg class="i"><use href="#gear"/></svg></span><div><b>Settings</b><span>Company, print templates, users</span></div></div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="b"><svg class="i"><use href="#search"/></svg><div><strong>Search everything</strong>Name, number, phone, GSTIN</div></div>
+    <div class="b"><svg class="i"><use href="#bell"/></svg><div><strong>Badges per app</strong>See where work is waiting</div></div>
+    <div class="b"><svg class="i"><use href="#lock"/></svg><div><strong>Role-based</strong>People see only their apps</div></div>
+    <div class="pg">4</div>
+  </div>
+</section>
+
+<!-- =============================== 5 · DASHBOARD =============================== -->
+<section class="page">
+  <div class="sunglow"></div>
+  <div class="ph"><div class="mark"><svg><use href="#logo"/></svg><span data-brand>SuryaSetu</span></div><div class="sec"><b>04</b>Dashboard</div></div>
+  <div class="titlebox">
+    <div class="eyebrow">Know your numbers</div>
+    <h1 class="t"><span class="l1">Live dashboard &amp;</span><span class="l2">India <em>sales map</em></span></h1>
+    <div class="swoosh"></div>
+    <p class="lead">Sales, cash, pipeline, installations and service on one screen — for the period you choose.</p>
+  </div>
+  <div class="body">
+    <div class="shot"><img src="img/dashboard-kpis.png" alt="Dashboard KPI cards"></div>
+    <div class="row mt4" style="align-items:flex-start;gap:4mm">
+      <div class="shot" style="width:112mm"><img src="img/dashboard-mapcard.png" alt="India sales map"></div>
+      <div class="shot grow"><img src="img/dashboard-cashflow.png" alt="Cash flow chart"><span class="cap">Cash flow · bar / line / table</span></div>
+    </div>
+    <ol class="feats c2 mt5">
+      <li><svg class="ic"><use href="#dash"/></svg><h4><span class="n">01</span>9 KPI cards</h4><p>Invoiced, collected, receivables with overdue, open quotations, new leads, conversion rate, kW installed, active projects, open tickets.</p></li>
+      <li><svg class="ic"><use href="#filter"/></svg><h4><span class="n">02</span>Period filter with trend</h4><p>This month, last 3 months, this FY, last 12 months or all time — each compared with the period before.</p></li>
+      <li><svg class="ic"><use href="#map"/></svg><h4><span class="n">03</span>India map</h4><p>States shaded by sales ₹ or customer count, every customer as a dot. Zoom in and click a dot to open the customer.</p></li>
+      <li><svg class="ic"><use href="#pie"/></svg><h4><span class="n">04</span>Switchable charts</h4><p>Cash flow, sales by product category, lead pipeline, lead sources, projects by stage and top customers.</p></li>
+      <li><svg class="ic"><use href="#bell"/></svg><h4><span class="n">05</span>Needs attention</h4><p>Overdue follow-ups, delayed projects and installations, overdue payments, low stock and urgent tickets.</p></li>
+      <li><svg class="ic"><use href="#cal"/></svg><h4><span class="n">06</span>What is coming up</h4><p>Upcoming lead follow-ups and the installation schedule. Click any card to open the records behind it.</p></li>
+    </ol>
+  </div>
+  <div class="band">
+    <div class="b"><svg class="i"><use href="#trend"/></svg><div><strong>Real-time</strong>Updates as your team saves</div></div>
+    <div class="b"><svg class="i"><use href="#target"/></svg><div><strong>Focus</strong>See what needs action today</div></div>
+    <div class="b"><svg class="i"><use href="#mobile"/></svg><div><strong>On the phone too</strong>Same dashboard on mobile</div></div>
+    <div class="pg">5</div>
+  </div>
+</section>
+
+<!-- =============================== 6 · CRM =============================== -->
+<section class="page">
+  <div class="sunglow"></div>
+  <div class="ph"><div class="mark"><svg><use href="#logo"/></svg><span data-brand>SuryaSetu</span></div><div class="sec"><b>05</b>CRM</div></div>
+  <div class="titlebox">
+    <div class="eyebrow">Capture · follow up · convert</div>
+    <h1 class="t"><span class="l1">Lead &amp; customer</span><span class="l2">Management <em>(CRM)</em></span></h1>
+    <div class="swoosh"></div>
+    <p class="lead">Every enquiry in one pipeline, with the next follow-up date, the sales person and the full history.</p>
+  </div>
+  <div class="body">
+    <div style="position:relative;height:104mm">
+      <div class="laptop" style="position:absolute;left:0;top:0;width:150mm">
+        <div class="lid"><div class="screen"><img src="img/leads-board.png" alt="Leads board"></div></div><div class="base"></div>
+      </div>
+      <div class="phone" style="position:absolute;right:0;top:8mm;width:40mm"><div class="screen"><img src="img/phone-leads.png" alt="Leads on phone"></div></div>
+    </div>
+    <ol class="feats c2 mt4">
+      <li><svg class="ic"><use href="#board"/></svg><h4><span class="n">01</span>Pipeline board</h4><p>New → Contacted → Site Survey → Proposal Sent → Negotiation → Won / Lost. Drag cards, or pick the stage on a phone.</p></li>
+      <li><svg class="ic"><use href="#target"/></svg><h4><span class="n">02</span>10 lead sources</h4><p>Website, walk-in, referral, Facebook, Instagram, Google, WhatsApp, call, exhibition — with win rate per source.</p></li>
+      <li><svg class="ic"><use href="#usercheck"/></svg><h4><span class="n">03</span>Fair auto-assignment</h4><p>New leads go to the sales person with the fewest open leads.</p></li>
+      <li><svg class="ic"><use href="#bell"/></svg><h4><span class="n">04</span>Follow-up reminders</h4><p>Next follow-up date and time; overdue and due-today follow-ups appear as alerts.</p></li>
+      <li><svg class="ic"><use href="#chat"/></svg><h4><span class="n">05</span>Call &amp; WhatsApp in one tap</h4><p>Phone numbers dial directly; WhatsApp opens with a greeting ready.</p></li>
+      <li><svg class="ic"><use href="#copy"/></svg><h4><span class="n">06</span>Duplicate check</h4><p>Warns before saving a second lead or customer with the same phone or email.</p></li>
+      <li><svg class="ic"><use href="#users"/></svg><h4><span class="n">07</span>Customers with history</h4><p>GSTIN or PIN code fills the state, consumer number, lifecycle from prospect to AMC, statement of account.</p></li>
+      <li><svg class="ic"><use href="#upload"/></svg><h4><span class="n">08</span>Import &amp; capture</h4><p>CSV import/export, activities &amp; notes, and a public enquiry form that creates leads (cloud mode).</p></li>
+    </ol>
+  </div>
+  <div class="band">
+    <div class="b"><svg class="i"><use href="#trend"/></svg><div><strong>Higher conversion</strong>No lead forgotten</div></div>
+    <div class="b"><svg class="i"><use href="#zap"/></svg><div><strong>Won = customer</strong>Created automatically</div></div>
+    <div class="b"><svg class="i"><use href="#map"/></svg><div><strong>Leads on the map</strong>Plan visits by area</div></div>
+    <div class="pg">6</div>
+  </div>
+</section>
+
+<!-- =============================== 7 · SALES =============================== -->
+<section class="page">
+  <div class="sunglow"></div>
+  <div class="ph"><div class="mark"><svg><use href="#logo"/></svg><span data-brand>SuryaSetu</span></div><div class="sec"><b>06</b>Sales</div></div>
+  <div class="titlebox">
+    <div class="eyebrow">Survey · propose · close</div>
+    <h1 class="t"><span class="l1">Site surveys &amp;</span><span class="l2">Smart <em>quotations</em></span></h1>
+    <div class="swoosh"></div>
+    <p class="lead">Build a priced, GST-correct proposal in minutes — and show the customer what the system will save.</p>
+  </div>
+  <div class="body">
+    <div style="position:relative;height:118mm">
+      <div class="laptop" style="position:absolute;left:0;top:0;width:128mm">
+        <div class="lid"><div class="screen"><img src="img/quotation-form.png" alt="Quotation form with line items"></div></div><div class="base"></div>
+      </div>
+      <div class="sheet crop" style="position:absolute;right:0;top:12mm;width:70mm;height:100mm;transform:rotate(2deg)">
+        <img src="img/print-quotation.png" alt="Printed quotation" style="height:auto">
+      </div>
+      <div class="card" style="position:absolute;left:4mm;top:88mm;width:104mm;border-left:1.4mm solid var(--sun);box-shadow:0 1.5mm 5mm rgba(0,0,0,.12)">
+        <h3><svg class="i"><use href="#sun"/></svg>Printed on every quotation (5 kW example)</h3>
+        <div class="row" style="gap:4mm;font-size:10px"><div><b style="font-size:14px;color:var(--teal-d)">7,665</b><br>units / year</div><div><b style="font-size:14px;color:var(--teal-d)">₹57,488</b><br>savings / year</div><div><b style="font-size:14px;color:var(--teal-d)">5.2 yrs</b><br>simple payback</div></div>
+      </div>
+    </div>
+    <ol class="feats c2 mt4">
+      <li><svg class="ic"><use href="#clip"/></svg><h4><span class="n">01</span>Site survey</h4><p>Roof type, usable area, shading, sanctioned load, recommended kW and site photo — printable survey report.</p></li>
+      <li><svg class="ic"><use href="#box"/></svg><h4><span class="n">02</span>Pick from your catalogue</h4><p>Choosing a product fills description, HSN, unit, rate and GST %, and shows the stock in hand.</p></li>
+      <li><svg class="ic"><use href="#percent"/></svg><h4><span class="n">03</span>Discounts &amp; GST</h4><p>Line discount % and overall discount. CGST + SGST in your state, IGST outside — from the place of supply.</p></li>
+      <li><svg class="ic"><use href="#sun"/></svg><h4><span class="n">04</span>Savings &amp; payback</h4><p>Yearly units, ₹ savings and payback from your own assumptions (units per kW per day, tariff).</p></li>
+      <li><svg class="ic"><use href="#refresh"/></svg><h4><span class="n">05</span>Status &amp; validity</h4><p>Draft, Sent, Accepted, Rejected, Expired, with a valid-till date. Analyse value by month in pivot or graph.</p></li>
+      <li><svg class="ic"><use href="#receipt"/></svg><h4><span class="n">06</span>Convert &amp; share</h4><p>Convert to invoice in one click. Print, save as PDF or share on WhatsApp with the amount in the message.</p></li>
+    </ol>
+  </div>
+  <div class="band">
+    <div class="b"><svg class="i"><use href="#clock"/></svg><div><strong>Quote in minutes</strong>Lines from your product list</div></div>
+    <div class="b"><svg class="i"><use href="#trend"/></svg><div><strong>Win more</strong>Savings sell the system</div></div>
+    <div class="b"><svg class="i"><use href="#ok"/></svg><div><strong>No tax mistakes</strong>GST worked out for you</div></div>
+    <div class="pg">7</div>
+  </div>
+</section>
+
+<!-- =============================== 8 · PROJECTS =============================== -->
+<section class="page">
+  <div class="sunglow"></div>
+  <div class="ph"><div class="mark"><svg><use href="#logo"/></svg><span data-brand>SuryaSetu</span></div><div class="sec"><b>07</b>Projects</div></div>
+  <div class="titlebox">
+    <div class="eyebrow">Plan · track · deliver</div>
+    <h1 class="t"><span class="l1">Project &amp; task</span><span class="l2">Management</span></h1>
+    <div class="swoosh"></div>
+    <p class="lead">Every plant from planning to handover — stage, milestones, money and the tasks behind it.</p>
+  </div>
+  <div class="body">
+    <div class="laptop" style="width:150mm">
+      <div class="lid"><div class="screen"><img src="img/projects-board.png" alt="Projects board"></div></div><div class="base"></div>
+    </div>
+    <div class="row mt5" style="gap:5mm">
+      <div class="shot crop" style="width:86mm;height:52mm"><img src="img/project-detail.png" alt="Project detail with milestones" style="width:100%;height:auto"><span class="cap">Project page · milestones · tasks</span></div>
+      <ol class="feats grow" style="gap:2.4mm">
+        <li><svg class="ic"><use href="#layers"/></svg><h4><span class="n">01</span>8 stages</h4><p>Planning, Design, Material Procurement, Installation, Testing, Net Metering, Handover, On Hold.</p></li>
+        <li><svg class="ic"><use href="#clip"/></svg><h4><span class="n">02</span>7 milestones</h4><p>Survey, design approved, material, installation, testing, net meter, handover.</p></li>
+        <li><svg class="ic"><use href="#rupee"/></svg><h4><span class="n">03</span>Budget vs actual</h4><p>Budget, actual cost and progress %.</p></li>
+      </ol>
+    </div>
+    <ol class="feats c2 mt4">
+      <li><svg class="ic"><use href="#zap"/></svg><h4><span class="n">04</span>Actions from the project</h4><p>Schedule installation, add a task, send material, raise an invoice — the project and customer are filled in.</p></li>
+      <li><svg class="ic"><use href="#cal"/></svg><h4><span class="n">05</span>Tasks with priority</h4><p>To Do → In Progress → Review → Done, Low to Urgent, on a board or calendar.</p></li>
+      <li><svg class="ic"><use href="#bell"/></svg><h4><span class="n">06</span>Delay alerts</h4><p>Projects past their target date and overdue tasks show up in Alerts.</p></li>
+      <li><svg class="ic"><use href="#file"/></svg><h4><span class="n">07</span>Project summary PDF</h4><p>Billed, received, material at cost, expenses and <b>gross margin</b>, plus material sent to site.</p></li>
+    </ol>
+  </div>
+  <div class="band">
+    <div class="b"><svg class="i"><use href="#target"/></svg><div><strong>On-time delivery</strong>See delays early</div></div>
+    <div class="b"><svg class="i"><use href="#rupee"/></svg><div><strong>Know your margin</strong>Gross margin per project</div></div>
+    <div class="b"><svg class="i"><use href="#users"/></svg><div><strong>Clear ownership</strong>Manager and assignees</div></div>
+    <div class="pg">8</div>
+  </div>
+</section>
+
+<!-- =============================== 9 · INSTALLATION =============================== -->
+<section class="page">
+  <div class="sunglow"></div>
+  <div class="ph"><div class="mark"><svg><use href="#logo"/></svg><span data-brand>SuryaSetu</span></div><div class="sec"><b>08</b>Installation</div></div>
+  <div class="titlebox">
+    <div class="eyebrow">Schedule · install · certify</div>
+    <h1 class="t"><span class="l1">Installation &amp;</span><span class="l2">Commissioning</span></h1>
+    <div class="swoosh"></div>
+    <p class="lead">Your field team follows the same checklist on every roof, and the certificate is ready the moment they finish.</p>
+  </div>
+  <div class="body">
+    <div class="row" style="align-items:flex-start;gap:6mm">
+      <div style="width:84mm">
+        <div class="sheet" style="transform:rotate(-1.5deg)"><img src="img/print-certificate.png" alt="Installation and commissioning certificate"></div>
+      </div>
+      <ol class="feats grow" style="gap:3.4mm">
+        <li><svg class="ic"><use href="#cal"/></svg><h4><span class="n">01</span>Schedule &amp; team</h4><p>Date, lead technician and team members. Scheduled, In Progress, Completed, Delayed or Cancelled.</p></li>
+        <li><svg class="ic"><use href="#clip"/></svg><h4><span class="n">02</span>7-point checklist</h4><p>Structure mounted, panels fixed, inverter installed, DC &amp; AC cabling, earthing &amp; lightning arrester, system tested, customer briefed.</p></li>
+        <li><svg class="ic"><use href="#gps"/></svg><h4><span class="n">03</span>Site GPS</h4><p>“Use my location” on the phone at site, then open the spot in Google Maps.</p></li>
+        <li><svg class="ic"><use href="#star"/></svg><h4><span class="n">04</span>Customer sign-off</h4><p>Customer confirmation, rating 1–5 and a completion photo.</p></li>
+        <li><svg class="ic"><use href="#bell"/></svg><h4><span class="n">05</span>Delay tracking</h4><p>Delay reason, plus alerts for delayed installations and today’s jobs.</p></li>
+        <li><svg class="ic"><use href="#file"/></svg><h4><span class="n">06</span>Certificate in one click</h4><p>Installation &amp; Commissioning Certificate with checklist, site location, signature and stamp.</p></li>
+      </ol>
+    </div>
+    <div class="row mt6" style="gap:5mm;align-items:flex-end">
+      <div class="laptop" style="width:118mm"><div class="lid"><div class="screen"><img src="img/installations-list.png" alt="Installations list"></div></div><div class="base"></div></div>
+      <div class="grow">
+        <div class="label">Also on this screen</div>
+        <ul class="check">
+          <li>Installations list, board, calendar and map</li>
+          <li>Upcoming schedule on the dashboard</li>
+          <li>kW installed counted in the KPIs</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="b"><svg class="i"><use href="#ok"/></svg><div><strong>Same quality everywhere</strong>Checklist on every job</div></div>
+    <div class="b"><svg class="i"><use href="#file"/></svg><div><strong>Instant paperwork</strong>Certificate ready to share</div></div>
+    <div class="b"><svg class="i"><use href="#star"/></svg><div><strong>Happy customers</strong>Rating on every install</div></div>
+    <div class="pg">9</div>
+  </div>
+</section>
+
+<!-- =============================== 10 · INVENTORY =============================== -->
+<section class="page">
+  <div class="sunglow"></div>
+  <div class="ph"><div class="mark"><svg><use href="#logo"/></svg><span data-brand>SuryaSetu</span></div><div class="sec"><b>09</b>Inventory</div></div>
+  <div class="titlebox">
+    <div class="eyebrow">Right stock, right site</div>
+    <h1 class="t"><span class="l1">Inventory &amp;</span><span class="l2">Delivery <em>challans</em></span></h1>
+    <div class="swoosh"></div>
+    <p class="lead">Panels, inverters, batteries, structures, cables and BOS — counted in every warehouse and sent to site on a challan.</p>
+  </div>
+  <div class="body">
+    <div class="laptop" style="width:150mm">
+      <div class="lid"><div class="screen"><img src="img/products-list.png" alt="Products list with stock"></div></div><div class="base"></div>
+    </div>
+    <div class="row mt5" style="align-items:flex-start;gap:5mm">
+      <ol class="feats grow" style="gap:2.6mm">
+        <li><svg class="ic"><use href="#tag"/></svg><h4><span class="n">01</span>Product catalogue</h4><p>SKU, brand, specification, warranty, unit, HSN/SAC, sale price, purchase cost and GST %.</p></li>
+        <li><svg class="ic"><use href="#store"/></svg><h4><span class="n">02</span>Warehouses &amp; movements</h4><p>Stock in / out per warehouse, linked to a project, with serial numbers and a PO or challan reference.</p></li>
+        <li><svg class="ic"><use href="#shield"/></svg><h4><span class="n">03</span>Never negative</h4><p>You cannot dispatch what you do not have. Low-stock alerts at your reorder level.</p></li>
+        <li><svg class="ic"><use href="#truck"/></svg><h4><span class="n">04</span>Delivery challans</h4><p>Vehicle no., transporter, from warehouse. <b>Dispatched</b> takes the items out of stock once; cancelling puts them back.</p></li>
+        <li><svg class="ic"><use href="#rupee"/></svg><h4><span class="n">05</span>Stock valuation</h4><p>Value of stock at cost in Reports, with low items flagged.</p></li>
+      </ol>
+      <div style="width:72mm">
+        <div class="sheet crop" style="height:86mm;transform:rotate(-1.5deg)"><img src="img/print-challan.png" alt="Delivery challan" style="height:auto"></div>
+      </div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="b"><svg class="i"><use href="#ok"/></svg><div><strong>No shortages</strong>Reorder alerts in time</div></div>
+    <div class="b"><svg class="i"><use href="#refresh"/></svg><div><strong>Automatic</strong>POs and challans move stock</div></div>
+    <div class="b"><svg class="i"><use href="#hash"/></svg><div><strong>Traceable</strong>Serial numbers per site</div></div>
+    <div class="pg">10</div>
+  </div>
+</section>
+
+<!-- =============================== 11 · PURCHASE =============================== -->
+<section class="page">
+  <div class="sunglow"></div>
+  <div class="ph"><div class="mark"><svg><use href="#logo"/></svg><span data-brand>SuryaSetu</span></div><div class="sec"><b>10</b>Purchase</div></div>
+  <div class="titlebox">
+    <div class="eyebrow">Buy right, pay right</div>
+    <h1 class="t"><span class="l1">Vendors &amp;</span><span class="l2">Purchase <em>orders</em></span></h1>
+    <div class="swoosh"></div>
+    <p class="lead">Order from your panel, inverter, structure and cable suppliers — and receive straight into stock.</p>
+  </div>
+  <div class="body">
+    <div class="row" style="align-items:flex-start;gap:6mm">
+      <div style="width:80mm">
+        <div class="sheet" style="transform:rotate(-1.5deg)"><img src="img/print-po.png" alt="Purchase order"></div>
+      </div>
+      <ol class="feats grow" style="gap:3.2mm">
+        <li><svg class="ic"><use href="#building"/></svg><h4><span class="n">01</span>Vendor master</h4><p>Contact person, phone, email, GSTIN (state filled from it), what they supply, rating 1–5 and contract end date.</p></li>
+        <li><svg class="ic"><use href="#cart"/></svg><h4><span class="n">02</span>Purchase orders</h4><p>Items at cost, discount and GST — IGST for out-of-state vendors, CGST + SGST for local ones.</p></li>
+        <li><svg class="ic"><use href="#refresh"/></svg><h4><span class="n">03</span>Order status</h4><p>Draft → Ordered → Partially Received → Received, or Cancelled, with expected delivery date.</p></li>
+        <li><svg class="ic"><use href="#box"/></svg><h4><span class="n">04</span>Receive into stock</h4><p>Marking an order <b>Received</b> adds its products to stock once, and locks the items.</p></li>
+        <li><svg class="ic"><use href="#rupee"/></svg><h4><span class="n">05</span>Amount paid</h4><p>Track what you have paid each vendor against the order total.</p></li>
+        <li><svg class="ic"><use href="#percent"/></svg><h4><span class="n">06</span>Input tax view</h4><p>GST on purchases and an indicative net GST in Reports.</p></li>
+      </ol>
+    </div>
+    <div class="laptop mt6" style="width:140mm;margin-left:auto;margin-right:auto">
+      <div class="lid"><div class="screen"><img src="img/po-list.png" alt="Purchase orders list"></div></div><div class="base"></div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="b"><svg class="i"><use href="#star"/></svg><div><strong>Better vendors</strong>Rate and compare</div></div>
+    <div class="b"><svg class="i"><use href="#ok"/></svg><div><strong>Fewer errors</strong>Stock added once only</div></div>
+    <div class="b"><svg class="i"><use href="#print"/></svg><div><strong>Professional POs</strong>Ship-to and terms printed</div></div>
+    <div class="pg">11</div>
+  </div>
+</section>
+
+<!-- =============================== 12 · BILLING =============================== -->
+<section class="page">
+  <div class="sunglow"></div>
+  <div class="ph"><div class="mark"><svg><use href="#logo"/></svg><span data-brand>SuryaSetu</span></div><div class="sec"><b>11</b>Accounts</div></div>
+  <div class="titlebox">
+    <div class="eyebrow">Bill · collect · reconcile</div>
+    <h1 class="t"><span class="l1">GST billing &amp;</span><span class="l2">Payments</span></h1>
+    <div class="swoosh"></div>
+    <p class="lead">Tax invoices your CA will like, and a QR code your customer can pay in seconds.</p>
+  </div>
+  <div class="body">
+    <div class="row" style="align-items:flex-start;gap:6mm">
+      <div style="width:82mm;position:relative">
+        <div class="sheet crop" style="height:150mm"><img src="img/print-invoice.png" alt="Tax invoice with UPI QR" style="height:auto;margin-top:-2mm"></div>
+      </div>
+      <ol class="feats grow" style="gap:2.7mm">
+        <li><svg class="ic"><use href="#hash"/></svg><h4><span class="n">01</span>Financial-year numbering</h4><p>INV/26-27/0001 restarts every April. Receipts, quotations, POs and challans follow the same rule.</p></li>
+        <li><svg class="ic"><use href="#percent"/></svg><h4><span class="n">02</span>CGST + SGST or IGST</h4><p>Decided by the place of supply. HSN/SAC-wise tax table, round-off and amount in words.</p></li>
+        <li><svg class="ic"><use href="#qr"/></svg><h4><span class="n">03</span>UPI QR for the balance</h4><p>Printed on unpaid invoices for the exact amount due, with your bank details.</p></li>
+        <li><svg class="ic"><use href="#copy"/></svg><h4><span class="n">04</span>Original / Duplicate / Triplicate</h4><p>Choose the copy label before printing.</p></li>
+        <li><svg class="ic"><use href="#rupee"/></svg><h4><span class="n">05</span>Payments &amp; receipts</h4><p>Cash, UPI, bank transfer, cheque, card, loan disbursal or subsidy; advances; receipt PDF. Overpayment is blocked.</p></li>
+        <li><svg class="ic"><use href="#ok"/></svg><h4><span class="n">06</span>Status from payments</h4><p>Unpaid, Partially Paid or Paid is worked out from what was received — never typed by hand.</p></li>
+        <li><svg class="ic"><use href="#lock"/></svg><h4><span class="n">07</span>Audit-safe</h4><p>Issued invoices cannot be deleted — cancel them instead. Due date from your payment terms.</p></li>
+        <li><svg class="ic"><use href="#receipt"/></svg><h4><span class="n">08</span>Expenses &amp; statements</h4><p>Expenses by category and project with receipt photo, expense voucher and customer statement PDFs.</p></li>
+      </ol>
+    </div>
+    <div class="shot mt5"><img src="img/invoices-list.png" alt="Invoices list" style="height:44mm;object-fit:cover;object-position:top"></div>
+  </div>
+  <div class="band">
+    <div class="b"><svg class="i"><use href="#qr"/></svg><div><strong>Paid faster</strong>Scan &amp; pay with any UPI app</div></div>
+    <div class="b"><svg class="i"><use href="#chat"/></svg><div><strong>Share on WhatsApp</strong>With amount and due date</div></div>
+    <div class="b"><svg class="i"><use href="#bell"/></svg><div><strong>No missed dues</strong>Overdue payment alerts</div></div>
+    <div class="pg">12</div>
+  </div>
+</section>
+
+<!-- =============================== 13 · SUBSIDY & LOANS =============================== -->
+<section class="page">
+  <div class="sunglow"></div>
+  <div class="ph"><div class="mark"><svg><use href="#logo"/></svg><span data-brand>SuryaSetu</span></div><div class="sec"><b>12</b>Subsidy &amp; loans</div></div>
+  <div class="titlebox">
+    <div class="eyebrow">PM Surya Ghar · bank finance</div>
+    <h1 class="t"><span class="l1">Subsidy &amp;</span><span class="l2">Solar <em>loans</em></span></h1>
+    <div class="swoosh"></div>
+    <p class="lead">Help customers afford solar — and keep track of every application until the money arrives.</p>
+  </div>
+  <div class="body">
+    <div class="laptop" style="width:126mm">
+      <div class="lid"><div class="screen"><img src="img/subsidy-board.png" alt="Subsidy applications board"></div></div><div class="base"></div>
+    </div>
+    <div class="row mt5" style="align-items:flex-start;gap:6mm">
+      <div class="grow">
+        <div class="sub"><svg class="i" style="width:5mm;height:5mm;vertical-align:-1mm;color:var(--orange)"><use href="#bank"/></svg> Subsidy applications</div>
+        <ol class="feats" style="gap:2.4mm">
+          <li><svg class="ic"><use href="#refresh"/></svg><h4><span class="n">01</span>Status pipeline</h4><p>Applied → Documents Verified → Under Review → Approved → Disbursed, or Rejected.</p></li>
+          <li><svg class="ic"><use href="#clip"/></svg><h4><span class="n">02</span>Document checklist</h4><p>Aadhaar, electricity bill, bank passbook, site photo, net-meter agreement, commissioning report.</p></li>
+          <li><svg class="ic"><use href="#bell"/></svg><h4><span class="n">03</span>45-day reminder</h4><p>Portal application no., capacity and amount; alert when pending for 45+ days.</p></li>
+        </ol>
+        <div class="sub mt4"><svg class="i" style="width:5mm;height:5mm;vertical-align:-1mm;color:var(--orange)"><use href="#percent"/></svg> Solar loans</div>
+        <ol class="feats" style="gap:2.4mm">
+          <li><svg class="ic"><use href="#calc"/></svg><h4><span class="n">04</span>EMI calculator</h4><p>Lender, amount, rate and tenure give the monthly EMI (reducing balance).</p></li>
+          <li><svg class="ic"><use href="#refresh"/></svg><h4><span class="n">05</span>Loan pipeline</h4><p>Submitted → Verification → Approved → Disbursed → Repaying → Closed, with document checklist.</p></li>
+          <li><svg class="ic"><use href="#cal"/></svg><h4><span class="n">06</span>EMI schedule &amp; reminders</h4><p>Month-by-month schedule PDF; EMI-due alerts 7 days ahead.</p></li>
+        </ol>
+      </div>
+      <div style="width:66mm">
+        <div class="sheet crop fade" style="height:96mm;transform:rotate(1.5deg)"><img src="img/print-loan.png" alt="Loan EMI schedule" style="height:auto"></div>
+      </div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="b"><svg class="i"><use href="#rupee"/></svg><div><strong>More sales</strong>Make solar affordable</div></div>
+    <div class="b"><svg class="i"><use href="#ok"/></svg><div><strong>Nothing stuck</strong>See every pending file</div></div>
+    <div class="b"><svg class="i"><use href="#file"/></svg><div><strong>Ready papers</strong>Certificate &amp; schedule PDFs</div></div>
+    <div class="pg">13</div>
+  </div>
+</section>
+
+<!-- =============================== 14 · SERVICE =============================== -->
+<section class="page">
+  <div class="sunglow"></div>
+  <div class="ph"><div class="mark"><svg><use href="#logo"/></svg><span data-brand>SuryaSetu</span></div><div class="sec"><b>13</b>Service</div></div>
+  <div class="titlebox">
+    <div class="eyebrow">After the handover</div>
+    <h1 class="t"><span class="l1">Service tickets</span><span class="l2">&amp; AMC <em>contracts</em></span></h1>
+    <div class="swoosh"></div>
+    <p class="lead">Every complaint, breakdown and cleaning visit tracked to closure — and every AMC renewed on time.</p>
+  </div>
+  <div class="body">
+    <div class="laptop" style="width:150mm">
+      <div class="lid"><div class="screen"><img src="img/tickets-board.png" alt="Service tickets board"></div></div><div class="base"></div>
+    </div>
+    <ol class="feats c2 mt5">
+      <li><svg class="ic"><use href="#tag"/></svg><h4><span class="n">01</span>Ticket types</h4><p>Complaint, Breakdown, Cleaning, AMC Visit and Query — priority Low, Medium, High or Urgent.</p></li>
+      <li><svg class="ic"><use href="#refresh"/></svg><h4><span class="n">02</span>Lifecycle</h4><p>Open → Assigned → In Progress → Resolved → Closed, assigned to an engineer.</p></li>
+      <li><svg class="ic"><use href="#bell"/></svg><h4><span class="n">03</span>Resolve-by date</h4><p>Overdue tickets and urgent tickets are raised in Alerts.</p></li>
+      <li><svg class="ic"><use href="#file"/></svg><h4><span class="n">04</span>Service report PDF</h4><p>Issue, resolution and customer signature on one page.</p></li>
+      <li><svg class="ic"><use href="#cal"/></svg><h4><span class="n">05</span>AMC contracts</h4><p>Start and end date, visits per year, contract value and status (Active, Expired, Renewed, Cancelled).</p></li>
+      <li><svg class="ic"><use href="#clock"/></svg><h4><span class="n">06</span>Renewal alerts</h4><p>Reminder 30 days before the end date; expired contracts flagged. AMC contract PDF.</p></li>
+    </ol>
+    <div class="shot mt5"><img src="img/amc-list.png" alt="AMC contracts list" style="height:38mm;object-fit:cover;object-position:top"></div>
+  </div>
+  <div class="band">
+    <div class="b"><svg class="i"><use href="#star"/></svg><div><strong>Loyal customers</strong>Fast, visible service</div></div>
+    <div class="b"><svg class="i"><use href="#rupee"/></svg><div><strong>Recurring income</strong>AMCs that renew</div></div>
+    <div class="b"><svg class="i"><use href="#cal"/></svg><div><strong>Planned visits</strong>Calendar of due dates</div></div>
+    <div class="pg">14</div>
+  </div>
+</section>
+
+<!-- =============================== 15 · DOCUMENTS & TEAM =============================== -->
+<section class="page">
+  <div class="sunglow"></div>
+  <div class="ph"><div class="mark"><svg><use href="#logo"/></svg><span data-brand>SuryaSetu</span></div><div class="sec"><b>14</b>Documents &amp; team</div></div>
+  <div class="titlebox">
+    <div class="eyebrow">Files and people</div>
+    <h1 class="t"><span class="l1">Documents &amp;</span><span class="l2">Team <em>attendance</em></span></h1>
+    <div class="swoosh"></div>
+    <p class="lead">Keep every customer file next to the customer, and know who came to work today.</p>
+  </div>
+  <div class="body">
+    <div class="row" style="gap:6mm;align-items:center">
+      <div class="laptop" style="width:108mm"><div class="lid"><div class="screen"><img src="img/documents-list.png" alt="Documents list"></div></div><div class="base"></div></div>
+      <ol class="feats grow" style="gap:3.2mm">
+        <li><svg class="ic"><use href="#folder"/></svg><h4><span class="n">01</span>Organised by category</h4><p>KYC, Project, Agreement, Invoice, Subsidy, Warranty and Other.</p></li>
+        <li><svg class="ic"><use href="#link"/></svg><h4><span class="n">02</span>Linked to the job</h4><p>Attach to a customer and a project; open it from their page.</p></li>
+        <li><svg class="ic"><use href="#upload"/></svg><h4><span class="n">03</span>Upload from phone</h4><p>Photos and PDFs. Site photos and receipts on surveys, installations and expenses too.</p></li>
+      </ol>
+    </div>
+    <div class="row mt6" style="gap:6mm;align-items:center">
+      <ol class="feats grow" style="gap:3.2mm">
+        <li><svg class="ic"><use href="#idcard"/></svg><h4><span class="n">04</span>Employees</h4><p>Designation, department, joining date, monthly salary and active status.</p></li>
+        <li><svg class="ic"><use href="#clock"/></svg><h4><span class="n">05</span>Daily attendance</h4><p>Present, Absent, Half Day, Leave or Late, with check-in and check-out time.</p></li>
+        <li><svg class="ic"><use href="#grid"/></svg><h4><span class="n">06</span>Monthly summary</h4><p>Pivot by employee and status; export CSV for payroll.</p></li>
+      </ol>
+      <div class="laptop" style="width:108mm"><div class="lid"><div class="screen"><img src="img/attendance-pivot.png" alt="Attendance summary"></div></div><div class="base"></div></div>
+    </div>
+    <div class="card tint mt6">
+      <h3><svg class="i"><use href="#users"/></svg>Users and employees are separate</h3>
+      <p>Only people who need to sign in get a user account with a role. Helpers and contract staff can be on the attendance register without a login.</p>
+    </div>
+  </div>
+  <div class="band">
+    <div class="b"><svg class="i"><use href="#search"/></svg><div><strong>Find any file</strong>In seconds, not hours</div></div>
+    <div class="b"><svg class="i"><use href="#lock"/></svg><div><strong>Kept safe</strong>Role-based access</div></div>
+    <div class="b"><svg class="i"><use href="#idcard"/></svg><div><strong>Disciplined team</strong>Attendance at a glance</div></div>
+    <div class="pg">15</div>
+  </div>
+</section>
+
+<!-- =============================== 16 · VIEWS =============================== -->
+<section class="page">
+  <div class="sunglow"></div>
+  <div class="ph"><div class="mark"><svg><use href="#logo"/></svg><span data-brand>SuryaSetu</span></div><div class="sec"><b>15</b>Views</div></div>
+  <div class="titlebox">
+    <div class="eyebrow">See your data your way</div>
+    <h1 class="t"><span class="l1">Six ways to see</span><span class="l2">Every <em>list</em></span></h1>
+    <div class="swoosh"></div>
+    <p class="lead">Leads, quotations, invoices, projects, tickets — switch between views with one click. Search, filter by status, sort, export CSV and print on all of them.</p>
+  </div>
+  <div class="body">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:5mm 6mm">
+      <div><div class="shot crop" style="height:52mm"><img src="img/leads-list.png" alt="List view"></div><div class="sub mt2"><svg class="i" style="width:4.5mm;height:4.5mm;vertical-align:-1mm;color:var(--orange)"><use href="#list"/></svg> List</div><p class="note" style="margin:0">Sortable columns, search, status filter, CSV import &amp; export.</p></div>
+      <div><div class="shot crop" style="height:52mm"><img src="img/projects-board.png" alt="Board view"></div><div class="sub mt2"><svg class="i" style="width:4.5mm;height:4.5mm;vertical-align:-1mm;color:var(--orange)"><use href="#board"/></svg> Board</div><p class="note" style="margin:0">Kanban by stage or status. Drag and drop, or pick on touch.</p></div>
+      <div><div class="shot crop" style="height:52mm"><img src="img/tasks-calendar.png" alt="Calendar view"></div><div class="sub mt2"><svg class="i" style="width:4.5mm;height:4.5mm;vertical-align:-1mm;color:var(--orange)"><use href="#cal"/></svg> Calendar</div><p class="note" style="margin:0">Due dates, follow-ups, installations and AMC end dates by month.</p></div>
+      <div><div class="shot crop" style="height:52mm"><img src="img/quotations-pivot.png" alt="Pivot view"></div><div class="sub mt2"><svg class="i" style="width:4.5mm;height:4.5mm;vertical-align:-1mm;color:var(--orange)"><use href="#grid"/></svg> Pivot</div><p class="note" style="margin:0">Rows × columns × measure (count, total, kW…), with totals and CSV.</p></div>
+      <div><div class="shot crop" style="height:52mm"><img src="img/invoices-graph.png" alt="Graph view"></div><div class="sub mt2"><svg class="i" style="width:4.5mm;height:4.5mm;vertical-align:-1mm;color:var(--orange)"><use href="#chart"/></svg> Graph</div><p class="note" style="margin:0">Bar, line, donut or bars — group by and split by any field.</p></div>
+      <div><div class="shot crop" style="height:52mm"><img src="img/customers-map.png" alt="Map view"></div><div class="sub mt2"><svg class="i" style="width:4.5mm;height:4.5mm;vertical-align:-1mm;color:var(--orange)"><use href="#map"/></svg> Map</div><p class="note" style="margin:0">Records on the India map by GPS, PIN code, city or state.</p></div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="b"><svg class="i"><use href="#zap"/></svg><div><strong>No report requests</strong>Answer it yourself</div></div>
+    <div class="b"><svg class="i"><use href="#download"/></svg><div><strong>CSV everywhere</strong>Open in Excel</div></div>
+    <div class="b"><svg class="i"><use href="#print"/></svg><div><strong>Print any list</strong>For meetings</div></div>
+    <div class="pg">16</div>
+  </div>
+</section>
+
+<!-- =============================== 17 · PRINT TEMPLATES =============================== -->
+<section class="page">
+  <div class="sunglow"></div>
+  <div class="ph"><div class="mark"><svg><use href="#logo"/></svg><span data-brand>SuryaSetu</span></div><div class="sec"><b>16</b>Documents</div></div>
+  <div class="titlebox">
+    <div class="eyebrow">Your brand on every page</div>
+    <h1 class="t"><span class="l1">Print templates &amp;</span><span class="l2">13 PDF <em>documents</em></span></h1>
+    <div class="swoosh"></div>
+    <p class="lead">Add your logo, signature or stamp, accent colour and terms once. Every document prints or saves as PDF in the layout you choose.</p>
+  </div>
+  <div class="body">
+    <div class="row" style="gap:4mm;align-items:flex-start">
+      <div class="grow"><div class="sheet crop" style="height:74mm"><img src="img/print-quotation.png" alt="Modern template"></div><div class="sub mt2" style="font-size:11px">Modern <span class="note">· coloured header band</span></div></div>
+      <div class="grow"><div class="sheet crop" style="height:74mm"><img src="img/print-invoice-classic.png" alt="Classic template"></div><div class="sub mt2" style="font-size:11px">Classic <span class="note">· accent line under header</span></div></div>
+      <div class="grow"><div class="sheet crop" style="height:74mm"><img src="img/print-certificate.png" alt="Compact template"></div><div class="sub mt2" style="font-size:11px">Compact <span class="note">· smaller text, more per page</span></div></div>
+    </div>
+    <div class="row mt4" style="gap:5mm;align-items:flex-start">
+      <div style="width:70mm">
+        <div class="shot"><img src="img/settings-print.png" alt="Print template settings"></div>
+        <ul class="check mt3">
+          <li>Logo, signature / stamp image, accent colour, tagline</li>
+          <li>UPI ID for the invoice QR; bank details on quotes (optional)</li>
+          <li>Savings estimate assumptions for quotations</li>
+          <li>PO terms, challan note, invoice declaration, footer line</li>
+        </ul>
+      </div>
+      <div class="grow">
+        <div class="label">13 printable documents</div>
+        <div class="docs">
+          <div class="doc-i"><b>1</b><svg class="i"><use href="#calc"/></svg><div>Quotation<small>with generation, savings &amp; payback</small></div></div>
+          <div class="doc-i"><b>2</b><svg class="i"><use href="#receipt"/></svg><div>Tax invoice<small>HSN summary, UPI QR, bank details</small></div></div>
+          <div class="doc-i"><b>3</b><svg class="i"><use href="#rupee"/></svg><div>Payment receipt</div></div>
+          <div class="doc-i"><b>4</b><svg class="i"><use href="#cart"/></svg><div>Purchase order</div></div>
+          <div class="doc-i"><b>5</b><svg class="i"><use href="#truck"/></svg><div>Delivery challan</div></div>
+          <div class="doc-i"><b>6</b><svg class="i"><use href="#panel"/></svg><div>Installation &amp; commissioning certificate</div></div>
+          <div class="doc-i"><b>7</b><svg class="i"><use href="#clip"/></svg><div>Site survey report</div></div>
+          <div class="doc-i"><b>8</b><svg class="i"><use href="#wrench"/></svg><div>Service report</div></div>
+          <div class="doc-i"><b>9</b><svg class="i"><use href="#cal"/></svg><div>AMC contract</div></div>
+          <div class="doc-i"><b>10</b><svg class="i"><use href="#users"/></svg><div>Customer statement of account</div></div>
+          <div class="doc-i"><b>11</b><svg class="i"><use href="#file"/></svg><div>Expense voucher</div></div>
+          <div class="doc-i"><b>12</b><svg class="i"><use href="#board"/></svg><div>Project summary<small>billed, received, cost and gross margin</small></div></div>
+          <div class="doc-i"><b>13</b><svg class="i"><use href="#percent"/></svg><div>Loan summary &amp; EMI schedule</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="b"><svg class="i"><use href="#pen"/></svg><div><strong>Looks professional</strong>Your logo and colours</div></div>
+    <div class="b"><svg class="i"><use href="#chat"/></svg><div><strong>Share in a tap</strong>WhatsApp with a summary</div></div>
+    <div class="b"><svg class="i"><use href="#download"/></svg><div><strong>Save as PDF</strong>From any device</div></div>
+    <div class="pg">17</div>
+  </div>
+</section>
+
+<!-- =============================== 18 · REPORTS =============================== -->
+<section class="page">
+  <div class="sunglow"></div>
+  <div class="ph"><div class="mark"><svg><use href="#logo"/></svg><span data-brand>SuryaSetu</span></div><div class="sec"><b>17</b>Reports</div></div>
+  <div class="titlebox">
+    <div class="eyebrow">For you and your CA</div>
+    <h1 class="t"><span class="l1">Reports &amp;</span><span class="l2">GST <em>summaries</em></span></h1>
+    <div class="swoosh"></div>
+    <p class="lead">Pick a date range and get sales, collections, expenses, GST and stock — print it or export CSV.</p>
+  </div>
+  <div class="body">
+    <div class="laptop" style="width:150mm">
+      <div class="lid"><div class="screen"><img src="img/reports.png" alt="Reports page"></div></div><div class="base"></div>
+    </div>
+    <ol class="feats c2 mt5">
+      <li><svg class="ic"><use href="#chart"/></svg><h4><span class="n">01</span>Cash summary</h4><p>Invoiced, collected, expenses and net cash, month by month, with collections and expenses by category.</p></li>
+      <li><svg class="ic"><use href="#hash"/></svg><h4><span class="n">02</span>GST summary (sales)</h4><p>Taxable value, CGST, SGST and IGST for the period — export CSV for your CA.</p></li>
+      <li><svg class="ic"><use href="#percent"/></svg><h4><span class="n">03</span>GST on purchases</h4><p>Input tax from purchase orders and an indicative net GST.</p></li>
+      <li><svg class="ic"><use href="#grid"/></svg><h4><span class="n">04</span>HSN-wise sales</h4><p>Taxable value and tax per HSN/SAC and GST rate.</p></li>
+      <li><svg class="ic"><use href="#clock"/></svg><h4><span class="n">05</span>Receivables ageing</h4><p>Who owes what: not yet due and overdue buckets, customer by customer.</p></li>
+      <li><svg class="ic"><use href="#box"/></svg><h4><span class="n">06</span>Product sales &amp; stock value</h4><p>Product-wise sales and stock valuation at cost, low stock flagged.</p></li>
+      <li><svg class="ic"><use href="#target"/></svg><h4><span class="n">07</span>Lead sources</h4><p>Leads, won and win rate per source — know which marketing works.</p></li>
+      <li><svg class="ic"><use href="#print"/></svg><h4><span class="n">08</span>Print &amp; export</h4><p>Print the whole report; export each table as CSV.</p></li>
+    </ol>
+  </div>
+  <div class="band">
+    <div class="b"><svg class="i"><use href="#clock"/></svg><div><strong>Month-end in minutes</strong>Not days</div></div>
+    <div class="b"><svg class="i"><use href="#hash"/></svg><div><strong>CA-friendly</strong>GST &amp; HSN tables</div></div>
+    <div class="b"><svg class="i"><use href="#trend"/></svg><div><strong>Better decisions</strong>Facts, not guesses</div></div>
+    <div class="pg">18</div>
+  </div>
+</section>
+
+<!-- =============================== 19 · MOBILE =============================== -->
+<section class="page">
+  <div class="sunglow"></div>
+  <div class="ph"><div class="mark"><svg><use href="#logo"/></svg><span data-brand>SuryaSetu</span></div><div class="sec"><b>18</b>Mobile &amp; offline</div></div>
+  <div class="titlebox">
+    <div class="eyebrow">In the office and on the roof</div>
+    <h1 class="t"><span class="l1">Works on every</span><span class="l2">Phone <em>&amp; PC</em></span></h1>
+    <div class="swoosh"></div>
+    <p class="lead">One app for the owner’s laptop, the accountant’s PC and the technician’s phone — installed from the browser in seconds.</p>
+  </div>
+  <div class="body">
+    <div class="row" style="justify-content:space-between;gap:4mm;padding:0 2mm">
+      <div class="phone" style="width:43mm"><div class="screen"><img src="img/phone-dashboard.png" alt="Dashboard on phone"></div></div>
+      <div class="phone" style="width:43mm;margin-top:8mm"><div class="screen"><img src="img/phone-map.png" alt="India map on phone"></div></div>
+      <div class="phone" style="width:43mm"><div class="screen"><img src="img/phone-lead-form.png" alt="New lead form on phone"></div></div>
+      <div class="phone" style="width:43mm;margin-top:8mm"><div class="screen"><img src="img/phone-invoice.png" alt="Invoice on phone"></div></div>
+    </div>
+    <ol class="feats c2 mt6">
+      <li><svg class="ic"><use href="#download"/></svg><h4><span class="n">01</span>Install like an app</h4><p>Android (Chrome), iPhone/iPad (Safari) and Windows (Edge/Chrome) — full screen with its own icon. No app store needed.</p></li>
+      <li><svg class="ic"><use href="#wifioff"/></svg><h4><span class="n">02</span>Offline start</h4><p>The app opens without internet. In device mode all data stays on the device; an “Offline” badge shows when the connection drops.</p></li>
+      <li><svg class="ic"><use href="#cloud"/></svg><h4><span class="n">03</span>Device mode or cloud mode</h4><p>Start on a single device; switch on cloud mode (Supabase) so all staff on every phone and PC share live data.</p></li>
+      <li><svg class="ic"><use href="#mobile"/></svg><h4><span class="n">04</span>Touch-friendly</h4><p>Big tap targets, stage pickers on boards, card-style line items on small screens.</p></li>
+      <li><svg class="ic"><use href="#gps"/></svg><h4><span class="n">05</span>Made for site work</h4><p>Capture GPS location, take photos, call or WhatsApp the customer from the record.</p></li>
+      <li><svg class="ic"><use href="#moon"/></svg><h4><span class="n">06</span>Light or dark</h4><p>Follows the phone’s theme, or choose light or dark yourself.</p></li>
+    </ol>
+    <div class="row mt5" style="gap:3mm">
+      <div class="card tint grow"><h3><svg class="i"><use href="#mobile"/></svg>Android</h3><p>Open the link in Chrome → ⋮ menu → <b>Install app</b>.</p></div>
+      <div class="card tint grow"><h3><svg class="i"><use href="#mobile"/></svg>iPhone / iPad</h3><p>Open in Safari → Share → <b>Add to Home Screen</b>.</p></div>
+      <div class="card tint grow"><h3><svg class="i"><use href="#globe"/></svg>Windows</h3><p>Edge or Chrome → the <b>Install</b> icon in the address bar.</p></div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="b"><svg class="i"><use href="#zap"/></svg><div><strong>Quick to start</strong>Open the link, sign in</div></div>
+    <div class="b"><svg class="i"><use href="#refresh"/></svg><div><strong>Always updated</strong>New version on next open</div></div>
+    <div class="b"><svg class="i"><use href="#globe"/></svg><div><strong>Any browser</strong>Chrome, Edge, Safari, Firefox</div></div>
+    <div class="pg">19</div>
+  </div>
+</section>
+
+<!-- =============================== 20 · SECURITY =============================== -->
+<section class="page">
+  <div class="sunglow"></div>
+  <div class="ph"><div class="mark"><svg><use href="#logo"/></svg><span data-brand>SuryaSetu</span></div><div class="sec"><b>19</b>Security</div></div>
+  <div class="titlebox">
+    <div class="eyebrow">The right access for every person</div>
+    <h1 class="t"><span class="l1">Security &amp;</span><span class="l2">User <em>roles</em></span></h1>
+    <div class="swoosh"></div>
+    <p class="lead">Sales sees leads, technicians see their jobs, accounts sees the money — and only owners and managers can delete.</p>
+  </div>
+  <div class="body">
+    <div class="shot"><img src="img/settings-users.png" alt="Users and roles"></div>
+    <div class="label mt5">What each role can do</div>
+    <table class="mx">
+      <thead><tr><th>App</th><th>Admin</th><th>Manager</th><th>Sales</th><th>Technician</th><th>Accounts</th></tr></thead>
+      <tbody>
+        <tr><td>CRM</td><td class="rw">Edit</td><td class="rw">Edit</td><td class="rw">Edit</td><td class="r">View</td><td class="r">View</td></tr>
+        <tr><td>Sales (surveys, quotations)</td><td class="rw">Edit</td><td class="rw">Edit</td><td class="rw">Edit</td><td class="rw">Edit</td><td class="rw">Edit</td></tr>
+        <tr><td>Projects &amp; tasks</td><td class="rw">Edit</td><td class="rw">Edit</td><td class="r">View</td><td class="rw">Edit</td><td class="r">View</td></tr>
+        <tr><td>Installation</td><td class="rw">Edit</td><td class="rw">Edit</td><td class="no">—</td><td class="rw">Edit</td><td class="no">—</td></tr>
+        <tr><td>Inventory</td><td class="rw">Edit</td><td class="rw">Edit</td><td class="r">View</td><td class="r">View</td><td class="rw">Edit</td></tr>
+        <tr><td>Purchase</td><td class="rw">Edit</td><td class="rw">Edit</td><td class="no">—</td><td class="no">—</td><td class="rw">Edit</td></tr>
+        <tr><td>Accounts (invoices, payments, expenses)</td><td class="rw">Edit</td><td class="rw">Edit</td><td class="no">—</td><td class="no">—</td><td class="rw">Edit</td></tr>
+        <tr><td>Subsidy &amp; loans</td><td class="rw">Edit</td><td class="rw">Edit</td><td class="rw">Edit</td><td class="no">—</td><td class="rw">Edit</td></tr>
+        <tr><td>Service</td><td class="rw">Edit</td><td class="rw">Edit</td><td class="no">—</td><td class="rw">Edit</td><td class="no">—</td></tr>
+        <tr><td>Documents</td><td class="rw">Edit</td><td class="rw">Edit</td><td class="rw">Edit</td><td class="rw">Edit</td><td class="rw">Edit</td></tr>
+        <tr><td>Team</td><td class="rw">Edit</td><td class="rw">Edit</td><td class="no">—</td><td class="no">—</td><td class="rw">Edit</td></tr>
+        <tr><td>Delete records · users &amp; settings</td><td class="rw">Both</td><td class="r">Delete</td><td class="no">—</td><td class="no">—</td><td class="no">—</td></tr>
+      </tbody>
+    </table>
+    <ol class="feats c2 mt5">
+      <li><svg class="ic"><use href="#shield"/></svg><h4><span class="n">01</span>Enforced by the database</h4><p>In cloud mode the same rules are checked by the database itself (row-level security), not just the screens.</p></li>
+      <li><svg class="ic"><use href="#usercheck"/></svg><h4><span class="n">02</span>Approval for new staff</h4><p>In cloud mode new sign-ups wait until the admin gives them a role.</p></li>
+      <li><svg class="ic"><use href="#refresh"/></svg><h4><span class="n">03</span>No silent overwrites</h4><p>If two people edit the same record, the second save is warned instead of overwriting.</p></li>
+      <li><svg class="ic"><use href="#download"/></svg><h4><span class="n">04</span>Backup &amp; recovery</h4><p>Download a backup file and restore it; admin recovery code in device mode.</p></li>
+    </ol>
+  </div>
+  <div class="band">
+    <div class="b"><svg class="i"><use href="#lock"/></svg><div><strong>Private by role</strong>Need-to-know access</div></div>
+    <div class="b"><svg class="i"><use href="#receipt"/></svg><div><strong>Audit-safe</strong>Invoices never deleted</div></div>
+    <div class="b"><svg class="i"><use href="#link"/></svg><div><strong>Protected links</strong>Records in use can’t be deleted</div></div>
+    <div class="pg">20</div>
+  </div>
+</section>
+
+<!-- =============================== 21 · CONTACT =============================== -->
+<section class="page contact">
+  <div class="sunglow" style="opacity:.8"></div>
+  <div class="panels" style="right:-25mm;top:58mm;width:110mm;height:58mm;transform:perspective(60mm) rotateX(25deg) rotate(-10deg);opacity:.55"></div>
+  <div class="ph"><div class="mark" style="color:#fff"><svg><use href="#logo"/></svg><span data-brand>SuryaSetu</span></div><div class="sec" style="color:var(--sun)"><b>20</b>Get started</div></div>
+  <div class="titlebox" style="padding-top:12mm">
+    <div class="eyebrow" style="color:var(--sun)">Ready when you are</div>
+    <h1 class="t"><span class="l1" style="font-size:40px">Ready to run your</span><span class="l2" style="font-size:72px">Solar business<br>in one app?</span></h1>
+    <div class="swoosh"></div>
+    <p class="lead" style="max-width:110mm">See <span data-brand>SuryaSetu</span> with your own products, prices and GST details in a free, no-obligation demo.</p>
+  </div>
+  <div class="body mt6">
+    <div class="steps4">
+      <div class="s"><b>01</b><h4>Book a demo</h4><p>A guided walkthrough of the apps that matter to you.</p></div>
+      <div class="s"><b>02</b><h4>Set up your company</h4><p>Logo, GSTIN, bank &amp; UPI, print layout and terms.</p></div>
+      <div class="s"><b>03</b><h4>Bring your data</h4><p>Import leads, customers and products from CSV.</p></div>
+      <div class="s"><b>04</b><h4>Go live</h4><p>Your team installs the app on their phones and PCs.</p></div>
+    </div>
+    <div class="row mt6" style="align-items:center;gap:8mm">
+      <div class="cbox grow">
+        <div class="crow"><svg class="i"><use href="#building"/></svg><div><span>Company</span><b>[Company name]</b></div></div>
+        <div class="crow"><svg class="i"><use href="#phone"/></svg><div><span>Call / WhatsApp</span><b>[Phone]</b></div></div>
+        <div class="crow"><svg class="i"><use href="#mail"/></svg><div><span>Email</span><b>[Email]</b></div></div>
+        <div class="crow"><svg class="i"><use href="#globe"/></svg><div><span>Website</span><b>[Website]</b></div></div>
+      </div>
+      <div style="width:64mm;text-align:center">
+        <div class="cta" style="font-size:16px;padding:3.6mm 6mm"><svg class="i"><use href="#cal"/></svg>Book a free demo</div>
+        <p style="color:#cfe5df;font-size:10px;margin-top:4mm">Call, WhatsApp or email us — we will set up a demo with your own company details.</p>
+      </div>
+    </div>
+    <div class="label" style="color:var(--sun);margin-top:10mm">Everything you saw in this brochure</div>
+    <div class="chips"><span class="chip" style="background:rgba(255,255,255,.1);color:#fff">Dashboard</span><span class="chip" style="background:rgba(255,255,255,.1);color:#fff">CRM</span><span class="chip" style="background:rgba(255,255,255,.1);color:#fff">Sales</span><span class="chip" style="background:rgba(255,255,255,.1);color:#fff">Projects</span><span class="chip" style="background:rgba(255,255,255,.1);color:#fff">Installation</span><span class="chip" style="background:rgba(255,255,255,.1);color:#fff">Inventory</span><span class="chip" style="background:rgba(255,255,255,.1);color:#fff">Purchase</span><span class="chip" style="background:rgba(255,255,255,.1);color:#fff">Accounts</span><span class="chip" style="background:rgba(255,255,255,.1);color:#fff">Subsidy</span><span class="chip" style="background:rgba(255,255,255,.1);color:#fff">Solar Loans</span><span class="chip" style="background:rgba(255,255,255,.1);color:#fff">Service</span><span class="chip" style="background:rgba(255,255,255,.1);color:#fff">Documents</span><span class="chip" style="background:rgba(255,255,255,.1);color:#fff">Team</span><span class="chip" style="background:rgba(255,255,255,.1);color:#fff">Reports</span><span class="chip" style="background:rgba(255,255,255,.1);color:#fff">Alerts</span><span class="chip" style="background:rgba(255,255,255,.1);color:#fff">Settings</span></div>
+    <div class="row" style="margin-top:8mm;gap:4mm">
+      <div class="s grow" style="background:rgba(255,255,255,.06);border-radius:3mm;padding:3.4mm;border:.3mm solid rgba(255,255,255,.15)"><b style="color:var(--sun)">Device mode</b><p style="margin:1mm 0 0;font-size:9.5px;color:#cfe5df">Runs in the browser on one device — ideal for trying it out or a one-person business.</p></div>
+      <div class="s grow" style="background:rgba(255,255,255,.06);border-radius:3mm;padding:3.4mm;border:.3mm solid rgba(255,255,255,.15)"><b style="color:var(--sun)">Cloud mode</b><p style="margin:1mm 0 0;font-size:9.5px;color:#cfe5df">A shared online database: every staff member on every phone and PC sees the same data live.</p></div>
+    </div>
+  </div>
+  <div class="band" style="background:var(--teal-dd)">
+    <div class="b" style="flex:3;font-size:8.5px;color:#a9c9c1"><div>All screens in this brochure are real screenshots of <span data-brand>SuryaSetu</span> filled with demo data for a fictional company (“Suryoday Solar Solutions (Demo)”). Names, phone numbers, GSTINs and bank details are made up.</div></div>
+    <div class="pg">21</div>
+  </div>
+</section>
+
+</body>
+</html>

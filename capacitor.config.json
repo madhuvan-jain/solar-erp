@@ -1,0 +1,8 @@
+{
+  "appId": "in.suryasetu.erp",
+  "appName": "SuryaSetu",
+  "webDir": "dist",
+  "android": {
+    "allowMixedContent": false
+  }
+}

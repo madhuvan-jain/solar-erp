@@ -1,0 +1,76 @@
+1
+00:00:00,600 --> 00:00:02,696
+Part six. Customers.
+
+2
+00:00:04,250 --> 00:00:08,261
+Customers are the homes and businesses you sell to.
+
+3
+00:00:08,261 --> 00:00:11,328
+Open CRM, then Customers, and open one.
+
+4
+00:00:12,210 --> 00:00:19,242
+Everything about them is on one page: contact details, segment and lifecycle,
+
+5
+00:00:19,242 --> 00:00:25,726
+and below that their quotations, invoices, payments, projects, tickets,
+
+6
+00:00:25,726 --> 00:00:27,643
+photos and documents.
+
+7
+00:00:28,530 --> 00:00:34,245
+Statement PDF lists every invoice and payment with the running balance.
+
+8
+00:00:34,245 --> 00:00:40,524
+Print it, save it as PDF, or share it on WhatsApp to collect pending payments.
+
+9
+00:00:41,410 --> 00:00:44,486
+To add a customer, tap New Customer.
+
+10
+00:00:44,486 --> 00:00:48,587
+Type the PIN code: if you leave the state empty,
+
+11
+00:00:48,587 --> 00:00:52,432
+it is filled from the PIN code when you save.
+
+12
+00:00:52,432 --> 00:00:57,217
+The state decides CGST plus SGST or IGST on their bills,
+
+13
+00:00:57,217 --> 00:01:01,148
+and a business customer's GSTIN also gives it.
+
+14
+00:01:02,050 --> 00:01:09,045
+At the customer's site, tap Use my location to save the exact spot from the phone's
+
+15
+00:01:09,045 --> 00:01:09,383
+GPS.
+
+16
+00:01:09,383 --> 00:01:10,225
+Then save.
+
+17
+00:01:11,130 --> 00:01:15,183
+The map view shows all your customers on the map of India.
+
+18
+00:01:15,183 --> 00:01:19,236
+Choose a state to zoom in to its cities and each customer.
+
+19
+00:01:30,780 --> 00:01:35,069
+Next video: Site survey and site photos with GPS.
+

@@ -1,0 +1,92 @@
+1
+00:00:00,600 --> 00:00:03,214
+Part three. Setting up your company.
+
+2
+00:00:04,250 --> 00:00:07,523
+Open Settings from the Home screen.
+
+3
+00:00:07,523 --> 00:00:14,911
+The General tab is your company profile: name, GSTIN, PAN, state, phone, email,
+
+4
+00:00:14,911 --> 00:00:17,249
+bank details and address.
+
+5
+00:00:17,249 --> 00:00:21,270
+These print on every quotation and invoice.
+
+6
+00:00:22,170 --> 00:00:28,897
+The state matters: it decides CGST plus SGST for customers in your state,
+
+7
+00:00:28,897 --> 00:00:30,740
+and IGST for others.
+
+8
+00:00:30,740 --> 00:00:35,716
+If you type the GSTIN, the state is filled in from it.
+
+9
+00:00:35,716 --> 00:00:38,481
+Change what you need and save.
+
+10
+00:00:39,370 --> 00:00:44,454
+The Sales tab sets how long quotations stay valid, the default terms,
+
+11
+00:00:44,454 --> 00:00:50,423
+and the generation and savings estimate printed on quotations: units per kilowatt
+
+12
+00:00:50,423 --> 00:00:53,075
+per day and your electricity tariff.
+
+13
+00:00:53,970 --> 00:00:58,768
+The Accounts tab has the payment terms that set each invoice's due date.
+
+14
+00:00:58,768 --> 00:01:02,833
+Purchase and stock chooses the warehouse where deliveries go.
+
+15
+00:01:03,730 --> 00:01:08,727
+Documents and print is where you add your logo and signature,
+
+16
+00:01:08,727 --> 00:01:12,824
+choose a print layout and colour, and your UPI ID.
+
+17
+00:01:12,824 --> 00:01:18,149
+With a UPI ID, every invoice prints a QR code for the amount due,
+
+18
+00:01:18,149 --> 00:01:20,852
+so customers can pay by scanning.
+
+19
+00:01:21,770 --> 00:01:26,007
+In the WhatsApp tab, enter your business WhatsApp number,
+
+20
+00:01:26,007 --> 00:01:28,980
+which prints on quotations and invoices.
+
+21
+00:01:28,980 --> 00:01:32,548
+Below are the messages the WhatsApp button uses.
+
+22
+00:01:32,548 --> 00:01:37,529
+One tap switches them all to Hindi, and you can change any of them.
+
+23
+00:01:38,660 --> 00:01:42,691
+Next video: Team members, roles and access rights.
+

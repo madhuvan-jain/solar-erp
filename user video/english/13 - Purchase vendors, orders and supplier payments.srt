@@ -1,0 +1,60 @@
+1
+00:00:00,600 --> 00:00:03,140
+Part thirteen. Buying material.
+
+2
+00:00:04,250 --> 00:00:08,974
+Open Purchase, then Vendors, and add your supplier.
+
+3
+00:00:08,974 --> 00:00:13,327
+Type the GSTIN and the state is filled from it,
+
+4
+00:00:13,327 --> 00:00:18,051
+which decides CGST and SGST or IGST on your orders.
+
+5
+00:00:18,970 --> 00:00:20,622
+Now a purchase order.
+
+6
+00:00:20,622 --> 00:00:23,691
+Choose the vendor and add the products.
+
+7
+00:00:23,691 --> 00:00:27,783
+Lines use your purchase cost, never your sale price.
+
+8
+00:00:27,783 --> 00:00:30,616
+Set it to Ordered, save and send it.
+
+9
+00:00:31,530 --> 00:00:36,471
+When the truck arrives, tap Receive goods and type what actually came.
+
+10
+00:00:36,471 --> 00:00:42,329
+Part deliveries are fine: the order shows Partially Received and what is still due.
+
+11
+00:00:43,210 --> 00:00:46,805
+To pay the vendor, tap Record supplier payment.
+
+12
+00:00:46,805 --> 00:00:51,930
+The amount still to pay is filled in; change it for a part payment,
+
+13
+00:00:51,930 --> 00:00:54,836
+choose the mode and the UTR, and save.
+
+14
+00:00:54,836 --> 00:00:57,743
+The order shows paid and still to pay.
+
+15
+00:00:58,900 --> 00:01:03,808
+Next video: Installation: checklist, photos and certificate.
+

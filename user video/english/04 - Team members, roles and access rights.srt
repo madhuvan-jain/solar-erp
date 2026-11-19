@@ -1,0 +1,64 @@
+1
+00:00:00,600 --> 00:00:04,191
+Part four. Your team and what each person can do.
+
+2
+00:00:05,050 --> 00:00:08,312
+Go to Settings, then Users and access.
+
+3
+00:00:08,312 --> 00:00:12,432
+Everyone who uses SuryaSetu has their own login.
+
+4
+00:00:12,432 --> 00:00:13,548
+Tap Add user.
+
+5
+00:00:14,450 --> 00:00:20,769
+Fill in the name, email and mobile, and choose a role: Sales for the sales team,
+
+6
+00:00:20,769 --> 00:00:26,534
+Technician for site staff, Accounts for billing, Manager for supervisors.
+
+7
+00:00:26,534 --> 00:00:28,904
+Set a first password and save.
+
+8
+00:00:29,810 --> 00:00:32,934
+Each role comes with sensible access.
+
+9
+00:00:32,934 --> 00:00:35,719
+To fine-tune it, edit the person.
+
+10
+00:00:35,719 --> 00:00:41,713
+For each app choose none, read only, own records only, all, or manager.
+
+11
+00:00:41,713 --> 00:00:47,116
+Own records only means a sales person sees just their own leads.
+
+12
+00:00:48,010 --> 00:00:51,620
+When someone leaves, edit them and untick Active.
+
+13
+00:00:51,620 --> 00:00:56,998
+They can no longer sign in, but everything they did stays in the records.
+
+14
+00:00:57,890 --> 00:01:02,807
+Under My account, anyone can change their own password and mobile number,
+
+15
+00:01:02,807 --> 00:01:06,309
+and choose light or dark mode and the screen layout.
+
+16
+00:01:07,460 --> 00:01:11,511
+Next video: Leads: capture enquiries and follow up.
+

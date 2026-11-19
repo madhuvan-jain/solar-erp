@@ -1,0 +1,80 @@
+1
+00:00:00,600 --> 00:00:03,896
+Part seven. Site survey and site photos.
+
+2
+00:00:04,730 --> 00:00:07,749
+Before quoting, someone visits the roof.
+
+3
+00:00:07,749 --> 00:00:10,617
+Open the lead and tap Schedule survey.
+
+4
+00:00:10,617 --> 00:00:12,881
+The lead is already filled in.
+
+5
+00:00:13,770 --> 00:00:16,660
+Fill the survey date and the surveyor.
+
+6
+00:00:16,660 --> 00:00:21,603
+At the site, record the roof type, the usable roof area, shading,
+
+7
+00:00:21,603 --> 00:00:27,383
+the sanctioned load on the electricity bill, and the capacity you recommend.
+
+8
+00:00:28,290 --> 00:00:30,023
+Now the site photos.
+
+9
+00:00:30,023 --> 00:00:31,323
+Tap Site photo.
+
+10
+00:00:31,323 --> 00:00:38,515
+SuryaSetu's own camera opens and shows where you are: the town, district and state,
+
+11
+00:00:38,515 --> 00:00:44,320
+the Plus Code, latitude and longitude, and how accurate the GPS is.
+
+12
+00:00:45,210 --> 00:00:48,596
+Tap the round button to take the photo.
+
+13
+00:00:48,596 --> 00:00:53,370
+The place, a small map, the coordinates, date and time,
+
+14
+00:00:53,370 --> 00:00:57,537
+the job details and a QR code are stamped on it.
+
+15
+00:00:57,537 --> 00:00:58,753
+Tap Use photo.
+
+16
+00:00:59,650 --> 00:01:05,929
+The photo is saved on the survey, and also on the customer and the project,
+
+17
+00:01:05,929 --> 00:01:07,938
+with its place and time.
+
+18
+00:01:07,938 --> 00:01:09,864
+Tap it to see it large.
+
+19
+00:01:09,864 --> 00:01:14,301
+Take as many as you need: roof, meter, inverter wall.
+
+20
+00:01:15,460 --> 00:01:19,932
+Next video: Quotations: GST quotes with savings.
+

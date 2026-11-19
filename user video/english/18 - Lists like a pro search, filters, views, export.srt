@@ -1,0 +1,52 @@
+1
+00:00:00,600 --> 00:00:03,756
+Part eighteen. Getting more from every list.
+
+2
+00:00:04,610 --> 00:00:11,140
+Every list has a search box: type a name, phone number, city or document number.
+
+3
+00:00:11,140 --> 00:00:13,997
+Tap a column heading to sort by it.
+
+4
+00:00:14,890 --> 00:00:18,102
+The filter button has ready-made filters,
+
+5
+00:00:18,102 --> 00:00:22,959
+like follow-up overdue or up to 3 kilowatts for PM Surya Ghar.
+
+6
+00:00:22,959 --> 00:00:28,521
+You can add your own filter, group the list, and save it as a favorite.
+
+7
+00:00:29,410 --> 00:00:36,712
+Change how you see the list: board by stage, calendar by date, pivot table, graph,
+
+8
+00:00:36,712 --> 00:00:37,336
+or map.
+
+9
+00:00:37,336 --> 00:00:40,631
+The same filters apply in every view.
+
+10
+00:00:41,530 --> 00:00:45,523
+Export saves the list as Excel, PDF or CSV.
+
+11
+00:00:45,523 --> 00:00:52,579
+Import CSV brings in many records at once from Excel: it adds the good rows,
+
+12
+00:00:52,579 --> 00:00:56,108
+skips duplicates and lists any errors.
+
+13
+00:00:57,260 --> 00:01:00,826
+Next video: Dashboard, reports and alerts.
+

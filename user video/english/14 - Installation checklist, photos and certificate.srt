@@ -1,0 +1,52 @@
+1
+00:00:00,600 --> 00:00:02,966
+Part fourteen. Installation.
+
+2
+00:00:04,250 --> 00:00:07,194
+On the project, tap Schedule installation.
+
+3
+00:00:07,194 --> 00:00:12,521
+Choose the date and the lead technician, and the team members going to site.
+
+4
+00:00:13,410 --> 00:00:20,405
+At the site, tick each step as it is done: structure, panels, inverter, cabling,
+
+5
+00:00:20,405 --> 00:00:24,340
+earthing, testing, and briefing the customer.
+
+6
+00:00:24,340 --> 00:00:28,886
+Tap Use my location to save the exact site position.
+
+7
+00:00:29,770 --> 00:00:35,833
+When the customer is happy, tick Customer confirmed completion, give their rating,
+
+8
+00:00:35,833 --> 00:00:38,568
+set the status to Completed and save.
+
+9
+00:00:39,450 --> 00:00:45,243
+Take the completion photos with Site photo: each is stamped with the place and time
+
+10
+00:00:45,243 --> 00:00:48,873
+and filed on the installation, customer and project.
+
+11
+00:00:49,770 --> 00:00:54,786
+Print gives the Installation and Commissioning Certificate for the customer to
+
+12
+00:00:54,786 --> 00:00:57,873
+sign, with the checklist and the system details.
+
+13
+00:00:59,020 --> 00:01:03,206
+Next video: PM Surya Ghar subsidy and solar loans.
+

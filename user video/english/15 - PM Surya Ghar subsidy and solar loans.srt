@@ -1,0 +1,84 @@
+1
+00:00:00,600 --> 00:00:04,975
+Part fifteen. PM Surya Ghar subsidy and solar loans.
+
+2
+00:00:05,810 --> 00:00:08,530
+Open Subsidy and add an application.
+
+3
+00:00:08,530 --> 00:00:10,042
+Choose the customer.
+
+4
+00:00:10,042 --> 00:00:12,157
+The scheme is PM Surya Ghar.
+
+5
+00:00:12,157 --> 00:00:16,162
+Type the application number from the national portal.
+
+6
+00:00:17,050 --> 00:00:22,951
+Leave capacity and amount empty: the capacity comes from the customer's project,
+
+7
+00:00:22,951 --> 00:00:25,311
+and the subsidy from the scheme.
+
+8
+00:00:25,311 --> 00:00:31,138
+Thirty thousand rupees per kilowatt up to two, eighteen thousand for the third,
+
+9
+00:00:31,138 --> 00:00:33,424
+at most seventy-eight thousand.
+
+10
+00:00:33,424 --> 00:00:37,628
+North-East, hill states and islands get ten percent more.
+
+11
+00:00:38,530 --> 00:00:45,189
+Tick the documents as you submit them: Aadhaar, electricity bill, bank passbook,
+
+12
+00:00:45,189 --> 00:00:49,933
+site photo, net meter agreement and commissioning report.
+
+13
+00:00:49,933 --> 00:00:50,349
+Save.
+
+14
+00:00:51,250 --> 00:00:57,574
+Update the status as the portal moves: documents verified, under review, approved,
+
+15
+00:00:57,574 --> 00:00:58,346
+disbursed.
+
+16
+00:00:58,346 --> 00:01:03,436
+Applications pending for more than forty-five days show in alerts.
+
+17
+00:01:03,436 --> 00:01:07,138
+The subsidy goes to the customer's bank account.
+
+18
+00:01:08,050 --> 00:01:14,181
+For customers buying on a loan, open Solar Loans and add one: the bank, amount,
+
+19
+00:01:14,181 --> 00:01:16,121
+interest rate and tenure.
+
+20
+00:01:16,121 --> 00:01:22,330
+The monthly EMI is worked out for you, and you track the status to disbursement.
+
+21
+00:01:24,020 --> 00:01:28,077
+Next video: Service tickets and AMC contracts.
+

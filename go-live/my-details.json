@@ -1,0 +1,19 @@
+{
+  "_read_me": "Fill every value, then run:  node scripts/fill-details.mjs --dry-run   (shows what will change)  and  node scripts/fill-details.mjs  (changes the files). Examples are in docs/publishing/README.md section 1.",
+  "Legal entity name": "",
+  "Registered address": "",
+  "Grievance Officer name": "",
+  "support email": "",
+  "phone": "",
+  "website URL": "",
+  "Effective date": "",
+  "Jurisdiction city": "",
+  "Lead retention period": "24 months",
+  "Fees and refund terms": "fees for a plan that has already started are not refunded, except where the law requires it.",
+  "Liability cap amount": "10,000",
+  "Copyright year": "2026",
+  "SMS provider name": "",
+  "Demo account email": "",
+  "Demo account password": "",
+  "Play package id": "in.suryasetu.erp"
+}

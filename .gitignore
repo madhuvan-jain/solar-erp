@@ -1,0 +1,26 @@
+node_modules
+dist
+.env
+.env.local
+
+# Android: the release signing key and its passwords never go into git (keep them in two safe places instead),
+# nor build output, the SDK path or the built web copy.
+android/keystore.properties
+android/*.jks
+android/*.keystore
+*.jks
+android/local.properties
+android/.gradle
+android/build
+android/app/build
+android/app/src/main/assets/public
+*.apk
+*.aab
+
+# The tutorial videos are large (about 600 MB): they go to YouTube, not into git. Captions, thumbnails and lists stay.
+user video/**/*.webm
+
+# Test and editor leftovers
+test-results
+playwright-report
+.DS_Store

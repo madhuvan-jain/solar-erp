@@ -1,0 +1,60 @@
+1
+00:00:00,600 --> 00:00:03,556
+Part twenty. Backup and data safety.
+
+2
+00:00:04,410 --> 00:00:06,876
+Open Settings, Backup and data.
+
+3
+00:00:06,876 --> 00:00:11,968
+Download backup saves one file with all records, attached files,
+
+4
+00:00:11,968 --> 00:00:16,583
+your staff list without passwords, and document numbering.
+
+5
+00:00:16,583 --> 00:00:21,356
+Do it every week and keep it on Google Drive or a pen drive.
+
+6
+00:00:22,250 --> 00:00:27,792
+Restore from backup puts a backup back, also on a new phone or computer.
+
+7
+00:00:27,792 --> 00:00:32,796
+Staff from the backup are added; set their passwords under Users.
+
+8
+00:00:32,796 --> 00:00:37,183
+Invoice numbers already given out are never issued again.
+
+9
+00:00:38,090 --> 00:00:42,331
+The app also keeps safety copies by itself: every day,
+
+10
+00:00:42,331 --> 00:00:45,315
+before an update and before a restore.
+
+11
+00:00:45,315 --> 00:00:49,712
+If something goes wrong, go back to a copy with Restore.
+
+12
+00:00:50,610 --> 00:00:56,726
+To try every screen, load the demo data of a sample solar company; your own data is
+
+13
+00:00:56,726 --> 00:01:00,484
+kept aside and comes back when you remove the demo.
+
+14
+00:01:00,484 --> 00:01:06,453
+In cloud mode, everything lives in one secure online database for the whole team.
+
+15
+00:01:07,620 --> 00:01:11,031
+Next video: Using SuryaSetu on your phone.
+
